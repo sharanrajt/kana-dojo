@@ -247,6 +247,66 @@ export const CURSOR_TRAIL_EFFECTS: EffectDefinition[] = [
     emoji: '\u{1F38D}',
     description: 'New Year bamboo decorations trail your cursor',
   },
+  {
+    id: 'sunrise',
+    name: 'Sunrise',
+    emoji: '\u{1F305}',
+    description: 'Rising sun portraits drift behind your cursor',
+  },
+  {
+    id: 'sunface',
+    name: 'Sun',
+    emoji: '\u{1F31E}',
+    description: 'Smiling suns radiate behind your cursor',
+  },
+  {
+    id: 'fugu',
+    name: 'Fugu',
+    emoji: '\u{1F421}',
+    description: 'Blowfish bob along behind your cursor',
+  },
+  {
+    id: 'kabuki',
+    name: 'Kabuki',
+    emoji: '\u{1F3AD}',
+    description: 'Kabuki masks float behind your cursor',
+  },
+  {
+    id: 'firecracker',
+    name: 'Firecracker',
+    emoji: '\u{1F9E8}',
+    description: 'Chinese firecrackers pop behind your cursor',
+  },
+  {
+    id: 'panda',
+    name: 'Panda',
+    emoji: '\u{1F43C}',
+    description: 'Pandas tumble behind your cursor',
+  },
+  {
+    id: 'hanafuda',
+    name: 'Hanafuda',
+    emoji: '\u{1F3B4}',
+    description: 'Flower playing cards flutter in your wake',
+  },
+  {
+    id: 'tokyotower',
+    name: 'Tokyo Tower',
+    emoji: '\u{1F5FC}',
+    description: 'Tokyo Tower silhouettes trail your cursor',
+  },
+  {
+    id: 'curry',
+    name: 'Japanese Curry',
+    emoji: '\u{1F35B}',
+    description: 'Curry bowls drift behind your cursor',
+  },
+  {
+    id: 'moonrabbit',
+    name: 'Moon Rabbit',
+    emoji: '\u{1F430}',
+    description: 'Moon rabbits hop behind your cursor',
+  },
 ];
 
 export const CLICK_EFFECTS: EffectDefinition[] = [
@@ -490,5 +550,65 @@ export const CLICK_EFFECTS: EffectDefinition[] = [
     name: 'Kadomatsu',
     emoji: '\u{1F38D}',
     description: 'New Year bamboo decorations scatter from each click',
+  },
+  {
+    id: 'sunrise',
+    name: 'Sunrise',
+    emoji: '\u{1F305}',
+    description: 'Rising sun portraits burst from each click',
+  },
+  {
+    id: 'sunface',
+    name: 'Sun',
+    emoji: '\u{1F31E}',
+    description: 'Smiling suns radiate from each click',
+  },
+  {
+    id: 'fugu',
+    name: 'Fugu',
+    emoji: '\u{1F421}',
+    description: 'Blowfish scatter from each click',
+  },
+  {
+    id: 'kabuki',
+    name: 'Kabuki',
+    emoji: '\u{1F3AD}',
+    description: 'Kabuki masks burst from each click',
+  },
+  {
+    id: 'firecracker',
+    name: 'Firecracker',
+    emoji: '\u{1F9E8}',
+    description: 'Chinese firecrackers explode from each click',
+  },
+  {
+    id: 'panda',
+    name: 'Panda',
+    emoji: '\u{1F43C}',
+    description: 'Pandas scatter from each click',
+  },
+  {
+    id: 'hanafuda',
+    name: 'Hanafuda',
+    emoji: '\u{1F3B4}',
+    description: 'Flower playing cards fly from each click',
+  },
+  {
+    id: 'tokyotower',
+    name: 'Tokyo Tower',
+    emoji: '\u{1F5FC}',
+    description: 'Tokyo Tower silhouettes burst from each click',
+  },
+  {
+    id: 'curry',
+    name: 'Japanese Curry',
+    emoji: '\u{1F35B}',
+    description: 'Curry bowls scatter from each click',
+  },
+  {
+    id: 'moonrabbit',
+    name: 'Moon Rabbit',
+    emoji: '\u{1F430}',
+    description: 'Moon rabbits leap from each click',
   },
 ];
