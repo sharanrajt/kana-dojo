@@ -539,9 +539,15 @@
     "meaning": "Very small space"
   },
   {
-  "japanese": "転んでもただでは起きぬ",
-  "romaji": "Koronde mo tada de wa okinu",
-  "english": "Even if you fall, don't get up empty-handed",
-  "meaning": "Learn something from every setback"
-}
+    "japanese": "転んでもただでは起きぬ",
+    "romaji": "Koronde mo tada de wa okinu",
+    "english": "Even if you fall, don't get up empty-handed",
+    "meaning": "Learn something from every setback"
+  },
+  {
+    "japanese": "腹八分目",
+    "romaji": "Hara hachibunme",
+    "english": "Stomach 80 percent full",
+    "meaning": "Eat in moderation"
+  }
 ]
