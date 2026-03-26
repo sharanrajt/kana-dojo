@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "japanese": "\u30ed\u30fc\u30c9\u30ed\u30fc\u30e9\u30fc\u3060\u30c3\uff01",
+    "japanese": "ロードローラーだッ！",
     "romaji": "Rodo rora da!",
     "english": "Road roller!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "japanese": "\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01",
+    "japanese": "イエス！イエス！イエス！イエス！",
     "romaji": "Iesu! Iesu! Iesu! Iesu!",
     "english": "Yes! Yes! Yes! Yes!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "japanese": "\u307b\u3046\u2026\u5411\u304b\u3063\u3066\u304f\u308b\u306e\u304b",
+    "japanese": "ほう…向かってくるのか",
     "romaji": "Ho... mukatte kuru no ka",
     "english": "Oh? You're approaching me?",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "japanese": "\u3060\u304c\u65ad\u308b",
+    "japanese": "だが断る",
     "romaji": "Daga kotowaru",
     "english": "But I refuse.",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "japanese": "\u3053\u306e\u30b8\u30e7\u30eb\u30ce\u30fb\u30b8\u30e7\u30d0\u30a1\u30fc\u30ca\u306b\u306f\u5922\u304c\u3042\u308b\uff01",
+    "japanese": "このジョルノ・ジョバァーナには夢がある！",
     "romaji": "Kono Joruno Jobana ni wa yume ga aru!",
     "english": "I, Giorno Giovanna, have a dream!",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c",
+    "japanese": "やれやれだぜ",
     "romaji": "Yare yare da ze",
     "english": "Good grief.",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "japanese": "\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\uff01",
+    "japanese": "無駄無駄無駄無駄無駄！",
     "romaji": "Muda muda muda muda muda!",
     "english": "Useless! Useless! Useless!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "japanese": "\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\uff01",
+    "japanese": "オラオラオラオラオラ！",
     "romaji": "Ora ora ora ora ora!",
     "english": "Ora ora ora ora ora!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "japanese": "\u306a\u306b\u30a3\uff01\uff1f",
+    "japanese": "なにィ！？",
     "romaji": "Nanii!?",
     "english": "What?!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "japanese": "\u6b21\u306b\u304a\u524d\u306f\u300c\u3084\u308c\u3084\u308c\u3060\u305c\u300d\u3068\u8a00\u3046\uff01",
+    "japanese": "次にお前は「やれやれだぜ」と言う！",
     "romaji": "Tsugi ni omae wa 'yare yare da ze' to iu!",
     "english": "Next you'll say, 'Good grief!'",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "japanese": "\u8cb4\u69d8\u30c3\uff01\u898b\u3066\u3044\u308b\u306a\u30c3\uff01\uff01",
+    "japanese": "貴様ッ！見ているなッ！！",
     "romaji": "Kisama! Mite iru na!!",
     "english": "You! You're watching me!",
     "anime": "JoJo's Bizarre Adventure: Stone Ocean",
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "japanese": "\u4ffa\u306f\u4eba\u9593\u3092\u3084\u3081\u308b\u305e\uff01\u30b8\u30e7\u30b8\u30e7\u30fc\u30fc\u30c3\uff01\uff01",
+    "japanese": "俺は人間をやめるぞ！ジョジョーーッ！！",
     "romaji": "Ore wa ningen o yameru zo! Jojo!!",
     "english": "I'm going to stop being human, JoJo!",
     "anime": "JoJo's Bizarre Adventure: Phantom Blood",
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "japanese": "\u4eca\u65e5\u306e\u4ffa\u306f\u4e00\u5473\u9055\u3046\u305c\uff01",
+    "japanese": "今日の俺は一味違うぜ！",
     "romaji": "Kyou no ore wa hitomi chigau ze!",
     "english": "I'm on a different level today!",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -131,7 +131,7 @@
   },
   {
     "id": 14,
-    "japanese": "\u304a\u308c\u306f\u4eba\u9593\u3092\u8d85\u8d8a\u3059\u308b\uff01",
+    "japanese": "おれは人間を超越する！",
     "romaji": "Ore wa ningen o chouetsu suru!",
     "english": "I will transcend humanity!",
     "anime": "JoJo's Bizarre Adventure: Battle Tendency",
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c\u2026\u307e\u3063\u305f\u304f\u3002",
+    "japanese": "やれやれだぜ…まったく。",
     "romaji": "Yare yare da ze... mattaku.",
     "english": "Good grief... honestly.",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "japanese": "\u3060\u304c\u2026\u305d\u308c\u304c\u3044\u3044\u3002",
+    "japanese": "だが…それがいい。",
     "romaji": "Daga... sore ga ii.",
     "english": "But... that's what I like.",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "japanese": "\u30d6\u30c1\u30e3\u30e9\u30c6\u30a3\u3001\u6765\u305f\uff01",
+    "japanese": "ブチャラティ、来た！",
     "romaji": "Bucharati, kita!",
     "english": "Bucciarati is here!",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -171,7 +171,7 @@
   },
   {
     "id": 18,
-    "japanese": "\u304a\u307e\u3048\u306f\u3082\u3046\u6b7b\u3093\u3067\u3044\u308b",
+    "japanese": "おまえはもう死んでいる",
     "romaji": "Omae wa mou shindeiru",
     "english": "You're already dead.",
     "anime": "Fist of the North Star",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "japanese": "\u4f55\u30c3\uff01\uff1f",
+    "japanese": "何ッ！？",
     "romaji": "Nani!?",
     "english": "What?!",
     "anime": "Fist of the North Star",
@@ -191,7 +191,7 @@
   },
   {
     "id": 20,
-    "japanese": "\u4ffa\u306f\u6d77\u8cca\u738b\u306b\u306a\u308b\uff01",
+    "japanese": "俺は海賊王になる！",
     "romaji": "Ore wa kaizoku ou ni naru!",
     "english": "I'm gonna be King of the Pirates!",
     "anime": "One Piece",
@@ -201,7 +201,7 @@
   },
   {
     "id": 21,
-    "japanese": "\u3042\u304d\u3089\u3081\u305f\u3089\u305d\u3053\u3067\u8a66\u5408\u7d42\u4e86\u3067\u3059\u3088\u2026\uff1f",
+    "japanese": "あきらめたらそこで試合終了ですよ…？",
     "romaji": "Akirametara soko de shiai shuuryou desu yo...?",
     "english": "If you give up, that's the end of the game.",
     "anime": "Slam Dunk",
@@ -211,7 +211,7 @@
   },
   {
     "id": 22,
-    "japanese": "\u307e\u3060\u3060\u3001\u307e\u3060\u7d42\u308f\u3089\u3093\u3088\uff01",
+    "japanese": "まだだ、まだ終わらんよ！",
     "romaji": "Mada da, mada owaran yo!",
     "english": "Not yet! It's not over yet!",
     "anime": "Mobile Suit Gundam",
@@ -221,7 +221,7 @@
   },
   {
     "id": 23,
-    "japanese": "\u30aa\u30ec\u69d8\u306e\u7f8e\u6280\u306b\u30d6\u30ae\u30a6\u30ae",
+    "japanese": "オレ様の美技にブギウギ",
     "romaji": "Ore-sama no bigi ni bugiugi",
     "english": "Dance to my beautiful technique!",
     "anime": "The Prince of Tennis",
@@ -231,7 +231,7 @@
   },
   {
     "id": 24,
-    "japanese": "\u7b11\u3048\u3070\u3044\u3044\u3068\u601d\u3046\u3088",
+    "japanese": "笑えばいいと思うよ",
     "romaji": "Waraeba ii to omou yo",
     "english": "I think you should just laugh.",
     "anime": "Neon Genesis Evangelion",
@@ -241,7 +241,7 @@
   },
   {
     "id": 25,
-    "japanese": "\u4ffa\u306f\u30ac\u30f3\u30c0\u30e0\u3060\uff01",
+    "japanese": "俺はガンダムだ！",
     "romaji": "Ore wa Gandamu da!",
     "english": "I am Gundam!",
     "anime": "Mobile Suit Gundam 00",
@@ -251,7 +251,7 @@
   },
   {
     "id": 26,
-    "japanese": "\u4e16\u754c\u306f\u6b8b\u9177\u3060\u2026\u305d\u308c\u3067\u3082\u7f8e\u3057\u3044",
+    "japanese": "世界は残酷だ…それでも美しい",
     "romaji": "Sekai wa zankoku da... soredemo utsukushii",
     "english": "This world is cruel... yet so beautiful.",
     "anime": "Attack on Titan",
@@ -261,7 +261,7 @@
   },
   {
     "id": 27,
-    "japanese": "\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed",
+    "japanese": "レロレロレロレロ",
     "romaji": "Rero rero rero rero",
     "english": "Lero lero lero lero.",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -271,7 +271,7 @@
   },
   {
     "id": 28,
-    "japanese": "\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3",
+    "japanese": "フォッフォッフォッ",
     "romaji": "Fo fo fo fo",
     "english": "Fosh fosh fosh fosh.",
     "anime": "One Piece",
@@ -281,7 +281,7 @@
   },
   {
     "id": 29,
-    "japanese": "\u30de\u30de\u30de\u30de\u30de",
+    "japanese": "マママママ",
     "romaji": "Mama mama mama",
     "english": "Mama mama mama.",
     "anime": "One Piece",
@@ -291,7 +291,7 @@
   },
   {
     "id": 30,
-    "japanese": "\u30b7\u30b7\u30b7\u30b7\u30b7",
+    "japanese": "シシシシシ",
     "romaji": "Shishishishi",
     "english": "Shishishi!",
     "anime": "One Piece",
@@ -301,7 +301,7 @@
   },
   {
     "id": 31,
-    "japanese": "\u30b0\u30e9\u30e9\u30e9\u30e9",
+    "japanese": "グララララ",
     "romaji": "Gurararara",
     "english": "Gurararara!",
     "anime": "One Piece",
@@ -311,7 +311,7 @@
   },
   {
     "id": 32,
-    "japanese": "\u30bc\u30cf\u30cf\u30cf\u30cf",
+    "japanese": "ゼハハハハ",
     "romaji": "Ze hahaha",
     "english": "Ze ha ha ha!",
     "anime": "One Piece",
@@ -321,7 +321,7 @@
   },
   {
     "id": 33,
-    "japanese": "\u8ae6\u3081\u306a\u3044\u3063\u3066\u3070\u3088!",
+    "japanese": "諦めないってばよ!",
     "romaji": "Akiramenai tte bayo!",
     "english": "I never give up, believe it!",
     "anime": "Naruto",
@@ -331,7 +331,7 @@
   },
   {
     "id": 34,
-    "japanese": "\u4ef2\u9593\u3092\u5927\u5207\u306b\u3057\u306a\u3044\u5974\u306f\u305d\u308c\u4ee5\u4e0a\u306e\u30af\u30ba\u3060",
+    "japanese": "仲間を大切にしない奴はそれ以上のクズだ",
     "romaji": "Nakama o taisetsu ni shinai yatsu wa sore ijou no kuzu da",
     "english": "Those who don't take care of their comrades are worse than scum.",
     "anime": "Naruto",
@@ -341,7 +341,7 @@
   },
   {
     "id": 35,
-    "japanese": "\u75db\u307f\u3092\u4f34\u308f\u306a\u3044\u6559\u8a13\u306b\u306f\u610f\u5473\u304c\u306a\u3044",
+    "japanese": "痛みを伴わない教訓には意味がない",
     "romaji": "Itami o tomonawanai kyoukun ni wa imi ga nai",
     "english": "A lesson without pain is meaningless.",
     "anime": "Fullmetal Alchemist: Brotherhood",
@@ -351,7 +351,7 @@
   },
   {
     "id": 36,
-    "japanese": "\u99c6\u9010\u3057\u3066\u3084\u308b!\u3053\u306e\u4e16\u304b\u3089\u4e00\u5339\u6b8b\u3089\u305a!",
+    "japanese": "駆逐してやる!この世から一匹残らず!",
     "romaji": "Kuchiku shite yaru! Kono yo kara ippiki nokorazu!",
     "english": "I'll exterminate them! Every last one from this world!",
     "anime": "Attack on Titan",
@@ -361,7 +361,7 @@
   },
   {
     "id": 37,
-    "japanese": "\u751f\u6bba\u4e0e\u596a\u306e\u6a29\u3092\u4ed6\u4eba\u306b\u63e1\u3089\u305b\u308b\u306a!",
+    "japanese": "生殺与奪の権を他人に握らせるな!",
     "romaji": "Seisatsu yodatsu no ken o tanin ni nigiraseru na!",
     "english": "Don't let anyone else take control of your life and death!",
     "anime": "Demon Slayer: Kimetsu no Yaiba",
@@ -371,7 +371,7 @@
   },
   {
     "id": 38,
-    "japanese": "\u3055\u3089\u306b\u5411\u3053\u3046\u3078!\u30d7\u30eb\u30b9\u30a6\u30eb\u30c8\u30e9!",
+    "japanese": "さらに向こうへ!プルスウルトラ!",
     "romaji": "Sarani mukou e! Purusu Urutora!",
     "english": "Go beyond! Plus Ultra!",
     "anime": "My Hero Academia",
@@ -381,7 +381,7 @@
   },
   {
     "id": 39,
-    "japanese": "\u5927\u4e08\u592b\u3001\u50d5\u6700\u5f37\u3060\u304b\u3089",
+    "japanese": "大丈夫、僕最強だから",
     "romaji": "Daijoubu, boku saikyou dakara",
     "english": "Relax, I'm the strongest.",
     "anime": "Jujutsu Kaisen",
@@ -391,7 +391,7 @@
   },
   {
     "id": 40,
-    "japanese": "\u666e\u901a\u306e\u751f\u6d3b\u304c\u3057\u305f\u3044\u3060\u3051\u306a\u3093\u3060",
+    "japanese": "普通の生活がしたいだけなんだ",
     "romaji": "Futsuu no seikatsu ga shitai dake nanda",
     "english": "All I want is to live a normal life.",
     "anime": "Chainsaw Man",
@@ -401,7 +401,7 @@
   },
   {
     "id": 41,
-    "japanese": "\u6708\u306b\u4ee3\u308f\u3063\u3066\u304a\u3057\u304a\u304d\u3088!",
+    "japanese": "月に代わっておしおきよ!",
     "romaji": "Tsuki ni kawatte oshioki yo!",
     "english": "In the name of the moon, I'll punish you!",
     "anime": "Sailor Moon",
@@ -411,7 +411,7 @@
   },
   {
     "id": 42,
-    "japanese": "\u4ffa\u306f\u8da3\u5473\u3067\u30d2\u30fc\u30ed\u30fc\u3092\u3084\u3063\u3066\u3044\u308b\u8005\u3060",
+    "japanese": "俺は趣味でヒーローをやっている者だ",
     "romaji": "Ore wa shumi de hiiroo o yatte iru mono da",
     "english": "I'm just a hero for fun.",
     "anime": "One Punch Man",
@@ -421,7 +421,7 @@
   },
   {
     "id": 43,
-    "japanese": "\u5b88\u308b\u3082\u306e\u304c\u3042\u308b\u9650\u308a\u3001\u4ffa\u306f\u8ca0\u3051\u306a\u3044",
+    "japanese": "守るものがある限り、俺は負けない",
     "romaji": "Mamoru mono ga aru kagiri, ore wa makenai",
     "english": "As long as I have something to protect, I won't lose.",
     "anime": "Bleach",
@@ -431,7 +431,7 @@
   },
   {
     "id": 44,
-    "japanese": "\u50d5\u306f\u65b0\u4e16\u754c\u306e\u795e\u3068\u306a\u308b",
+    "japanese": "僕は新世界の神となる",
     "romaji": "Boku wa shin sekai no kami to naru",
     "english": "I will become the god of the new world.",
     "anime": "Death Note",
@@ -441,7 +441,7 @@
   },
   {
     "id": 45,
-    "japanese": "\u6483\u3063\u3066\u3044\u3044\u306e\u306f\u6483\u305f\u308c\u308b\u899a\u609f\u304c\u3042\u308b\u5974\u3060\u3051\u3060",
+    "japanese": "撃っていいのは撃たれる覚悟がある奴だけだ",
     "romaji": "Utte ii no wa uterareru kakugo ga aru yatsu dake da",
     "english": "Only those prepared to be shot should pull the trigger.",
     "anime": "Code Geass: Lelouch of the Rebellion",
@@ -451,7 +451,7 @@
   },
   {
     "id": 46,
-    "japanese": "\u4ffa\u3092\u8ab0\u3060\u3068\u601d\u3063\u3066\u3084\u304c\u308b!",
+    "japanese": "俺を誰だと思ってやがる!",
     "romaji": "Ore o dare da to omotte yagaru!",
     "english": "Who the hell do you think I am!",
     "anime": "Gurren Lagann",
@@ -461,7 +461,7 @@
   },
   {
     "id": 47,
-    "japanese": "\u50d5\u306f\u3082\u3046\u9003\u3052\u306a\u3044!",
+    "japanese": "僕はもう逃げない!",
     "romaji": "Boku wa mou nigenai!",
     "english": "I won't run away anymore!",
     "anime": "Hunter x Hunter",
@@ -471,7 +471,7 @@
   },
   {
     "id": 48,
-    "japanese": "\u9003\u3052\u3061\u3083\u30c0\u30e1\u3060!",
+    "japanese": "逃げちゃダメだ!",
     "romaji": "Nigeccha dame da!",
     "english": "I mustn't run away!",
     "anime": "Neon Genesis Evangelion",
@@ -481,7 +481,7 @@
   },
   {
     "id": 49,
-    "japanese": "\u4ef2\u9593\u3092\u4fe1\u3058\u308b\u3053\u3068\u304c\u4ffa\u306e\u9b54\u6cd5\u3060",
+    "japanese": "仲間を信じることが俺の魔法だ",
     "romaji": "Nakama o shinjiru koto ga ore no mahou da",
     "english": "Believing in my friends is my magic.",
     "anime": "Fairy Tail",
@@ -491,7 +491,7 @@
   },
   {
     "id": 50,
-    "japanese": "\u8ae6\u3081\u308b\u3068\u3044\u3046\u8a00\u8449\u306f\u4ffa\u306e\u8f9e\u66f8\u306b\u306a\u3044",
+    "japanese": "諦めるという言葉は俺の辞書にない",
     "romaji": "Akirameru to iu kotoba wa ore no jisho ni nai",
     "english": "The word 'give up' isn't in my dictionary.",
     "anime": "Black Clover",
@@ -501,7 +501,7 @@
   },
   {
     "id": 51,
-    "japanese": "\u9003\u3052\u308b\u306e\u3082\u52c7\u6c17\u3060\u305e",
+    "japanese": "逃げるのも勇気だぞ",
     "romaji": "Nigeru no mo yuuki da zo",
     "english": "Running away can take courage too.",
     "anime": "Mob Psycho 100",
@@ -511,7 +511,7 @@
   },
   {
     "id": 52,
-    "japanese": "\u30aa\u30e9\u306b\u5143\u6c17\u3092\u5206\u3051\u3066\u304f\u308c!",
+    "japanese": "オラに元気を分けてくれ!",
     "romaji": "Ora ni genki o wakete kure!",
     "english": "Lend me your energy!",
     "anime": "Dragon Ball Z",
@@ -521,7 +521,7 @@
   },
   {
     "id": 53,
-    "japanese": "\u30ed\u30fc\u30c9\u30ed\u30fc\u30e9\u30fc\u3060\u30c3\uff01",
+    "japanese": "ロードローラーだッ！",
     "romaji": "Rodo rora da!",
     "english": "Road roller! (alt wording 1)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -531,7 +531,7 @@
   },
   {
     "id": 54,
-    "japanese": "\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01",
+    "japanese": "イエス！イエス！イエス！イエス！",
     "romaji": "Iesu! Iesu! Iesu! Iesu!",
     "english": "Yes! Yes! Yes! Yes! (alt wording 2)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -541,7 +541,7 @@
   },
   {
     "id": 55,
-    "japanese": "\u307b\u3046\u2026\u5411\u304b\u3063\u3066\u304f\u308b\u306e\u304b",
+    "japanese": "ほう…向かってくるのか",
     "romaji": "Ho... mukatte kuru no ka",
     "english": "Oh? You're approaching me? (alt wording 3)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -551,7 +551,7 @@
   },
   {
     "id": 56,
-    "japanese": "\u3060\u304c\u65ad\u308b",
+    "japanese": "だが断る",
     "romaji": "Daga kotowaru",
     "english": "But I refuse. (alt wording 4)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -561,7 +561,7 @@
   },
   {
     "id": 57,
-    "japanese": "\u3053\u306e\u30b8\u30e7\u30eb\u30ce\u30fb\u30b8\u30e7\u30d0\u30a1\u30fc\u30ca\u306b\u306f\u5922\u304c\u3042\u308b\uff01",
+    "japanese": "このジョルノ・ジョバァーナには夢がある！",
     "romaji": "Kono Joruno Jobana ni wa yume ga aru!",
     "english": "I, Giorno Giovanna, have a dream! (alt wording 5)",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -571,7 +571,7 @@
   },
   {
     "id": 58,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c",
+    "japanese": "やれやれだぜ",
     "romaji": "Yare yare da ze",
     "english": "Good grief. (alt wording 6)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -581,7 +581,7 @@
   },
   {
     "id": 59,
-    "japanese": "\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\uff01",
+    "japanese": "無駄無駄無駄無駄無駄！",
     "romaji": "Muda muda muda muda muda!",
     "english": "Useless! Useless! Useless! (alt wording 7)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -591,7 +591,7 @@
   },
   {
     "id": 60,
-    "japanese": "\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\uff01",
+    "japanese": "オラオラオラオラオラ！",
     "romaji": "Ora ora ora ora ora!",
     "english": "Ora ora ora ora ora! (alt wording 8)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -601,7 +601,7 @@
   },
   {
     "id": 61,
-    "japanese": "\u306a\u306b\u30a3\uff01\uff1f",
+    "japanese": "なにィ！？",
     "romaji": "Nanii!?",
     "english": "What?! (alt wording 9)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -611,7 +611,7 @@
   },
   {
     "id": 62,
-    "japanese": "\u6b21\u306b\u304a\u524d\u306f\u300c\u3084\u308c\u3084\u308c\u3060\u305c\u300d\u3068\u8a00\u3046\uff01",
+    "japanese": "次にお前は「やれやれだぜ」と言う！",
     "romaji": "Tsugi ni omae wa 'yare yare da ze' to iu!",
     "english": "Next you'll say, 'Good grief!' (alt wording 10)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -621,7 +621,7 @@
   },
   {
     "id": 63,
-    "japanese": "\u8cb4\u69d8\u30c3\uff01\u898b\u3066\u3044\u308b\u306a\u30c3\uff01\uff01",
+    "japanese": "貴様ッ！見ているなッ！！",
     "romaji": "Kisama! Mite iru na!!",
     "english": "You! You're watching me! (alt wording 11)",
     "anime": "JoJo's Bizarre Adventure: Stone Ocean",
@@ -631,7 +631,7 @@
   },
   {
     "id": 64,
-    "japanese": "\u4ffa\u306f\u4eba\u9593\u3092\u3084\u3081\u308b\u305e\uff01\u30b8\u30e7\u30b8\u30e7\u30fc\u30fc\u30c3\uff01\uff01",
+    "japanese": "俺は人間をやめるぞ！ジョジョーーッ！！",
     "romaji": "Ore wa ningen o yameru zo! Jojo!!",
     "english": "I'm going to stop being human, JoJo! (alt wording 12)",
     "anime": "JoJo's Bizarre Adventure: Phantom Blood",
@@ -641,7 +641,7 @@
   },
   {
     "id": 65,
-    "japanese": "\u4eca\u65e5\u306e\u4ffa\u306f\u4e00\u5473\u9055\u3046\u305c\uff01",
+    "japanese": "今日の俺は一味違うぜ！",
     "romaji": "Kyou no ore wa hitomi chigau ze!",
     "english": "I'm on a different level today! (alt wording 13)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -651,7 +651,7 @@
   },
   {
     "id": 66,
-    "japanese": "\u304a\u308c\u306f\u4eba\u9593\u3092\u8d85\u8d8a\u3059\u308b\uff01",
+    "japanese": "おれは人間を超越する！",
     "romaji": "Ore wa ningen o chouetsu suru!",
     "english": "I will transcend humanity! (alt wording 14)",
     "anime": "JoJo's Bizarre Adventure: Battle Tendency",
@@ -661,7 +661,7 @@
   },
   {
     "id": 67,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c\u2026\u307e\u3063\u305f\u304f\u3002",
+    "japanese": "やれやれだぜ…まったく。",
     "romaji": "Yare yare da ze... mattaku.",
     "english": "Good grief... honestly. (alt wording 15)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -671,7 +671,7 @@
   },
   {
     "id": 68,
-    "japanese": "\u3060\u304c\u2026\u305d\u308c\u304c\u3044\u3044\u3002",
+    "japanese": "だが…それがいい。",
     "romaji": "Daga... sore ga ii.",
     "english": "But... that's what I like. (alt wording 16)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -681,7 +681,7 @@
   },
   {
     "id": 69,
-    "japanese": "\u30d6\u30c1\u30e3\u30e9\u30c6\u30a3\u3001\u6765\u305f\uff01",
+    "japanese": "ブチャラティ、来た！",
     "romaji": "Bucharati, kita!",
     "english": "Bucciarati is here! (alt wording 17)",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -691,7 +691,7 @@
   },
   {
     "id": 70,
-    "japanese": "\u304a\u307e\u3048\u306f\u3082\u3046\u6b7b\u3093\u3067\u3044\u308b",
+    "japanese": "おまえはもう死んでいる",
     "romaji": "Omae wa mou shindeiru",
     "english": "You're already dead. (alt wording 18)",
     "anime": "Fist of the North Star",
@@ -701,7 +701,7 @@
   },
   {
     "id": 71,
-    "japanese": "\u4f55\u30c3\uff01\uff1f",
+    "japanese": "何ッ！？",
     "romaji": "Nani!?",
     "english": "What?! (alt wording 19)",
     "anime": "Fist of the North Star",
@@ -711,7 +711,7 @@
   },
   {
     "id": 72,
-    "japanese": "\u4ffa\u306f\u6d77\u8cca\u738b\u306b\u306a\u308b\uff01",
+    "japanese": "俺は海賊王になる！",
     "romaji": "Ore wa kaizoku ou ni naru!",
     "english": "I'm gonna be King of the Pirates! (alt wording 20)",
     "anime": "One Piece",
@@ -721,7 +721,7 @@
   },
   {
     "id": 73,
-    "japanese": "\u3042\u304d\u3089\u3081\u305f\u3089\u305d\u3053\u3067\u8a66\u5408\u7d42\u4e86\u3067\u3059\u3088\u2026\uff1f",
+    "japanese": "あきらめたらそこで試合終了ですよ…？",
     "romaji": "Akirametara soko de shiai shuuryou desu yo...?",
     "english": "If you give up, that's the end of the game. (alt wording 21)",
     "anime": "Slam Dunk",
@@ -731,7 +731,7 @@
   },
   {
     "id": 74,
-    "japanese": "\u307e\u3060\u3060\u3001\u307e\u3060\u7d42\u308f\u3089\u3093\u3088\uff01",
+    "japanese": "まだだ、まだ終わらんよ！",
     "romaji": "Mada da, mada owaran yo!",
     "english": "Not yet! It's not over yet! (alt wording 22)",
     "anime": "Mobile Suit Gundam",
@@ -741,7 +741,7 @@
   },
   {
     "id": 75,
-    "japanese": "\u30aa\u30ec\u69d8\u306e\u7f8e\u6280\u306b\u30d6\u30ae\u30a6\u30ae",
+    "japanese": "オレ様の美技にブギウギ",
     "romaji": "Ore-sama no bigi ni bugiugi",
     "english": "Dance to my beautiful technique! (alt wording 23)",
     "anime": "The Prince of Tennis",
@@ -751,7 +751,7 @@
   },
   {
     "id": 76,
-    "japanese": "\u7b11\u3048\u3070\u3044\u3044\u3068\u601d\u3046\u3088",
+    "japanese": "笑えばいいと思うよ",
     "romaji": "Waraeba ii to omou yo",
     "english": "I think you should just laugh. (alt wording 24)",
     "anime": "Neon Genesis Evangelion",
@@ -761,7 +761,7 @@
   },
   {
     "id": 77,
-    "japanese": "\u4ffa\u306f\u30ac\u30f3\u30c0\u30e0\u3060\uff01",
+    "japanese": "俺はガンダムだ！",
     "romaji": "Ore wa Gandamu da!",
     "english": "I am Gundam! (alt wording 25)",
     "anime": "Mobile Suit Gundam 00",
@@ -771,7 +771,7 @@
   },
   {
     "id": 78,
-    "japanese": "\u4e16\u754c\u306f\u6b8b\u9177\u3060\u2026\u305d\u308c\u3067\u3082\u7f8e\u3057\u3044",
+    "japanese": "世界は残酷だ…それでも美しい",
     "romaji": "Sekai wa zankoku da... soredemo utsukushii",
     "english": "This world is cruel... yet so beautiful. (alt wording 26)",
     "anime": "Attack on Titan",
@@ -781,7 +781,7 @@
   },
   {
     "id": 79,
-    "japanese": "\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed",
+    "japanese": "レロレロレロレロ",
     "romaji": "Rero rero rero rero",
     "english": "Lero lero lero lero. (alt wording 27)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -791,7 +791,7 @@
   },
   {
     "id": 80,
-    "japanese": "\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3",
+    "japanese": "フォッフォッフォッ",
     "romaji": "Fo fo fo fo",
     "english": "Fosh fosh fosh fosh. (alt wording 28)",
     "anime": "One Piece",
@@ -801,7 +801,7 @@
   },
   {
     "id": 81,
-    "japanese": "\u30de\u30de\u30de\u30de\u30de",
+    "japanese": "マママママ",
     "romaji": "Mama mama mama",
     "english": "Mama mama mama. (alt wording 29)",
     "anime": "One Piece",
@@ -811,7 +811,7 @@
   },
   {
     "id": 82,
-    "japanese": "\u30b7\u30b7\u30b7\u30b7\u30b7",
+    "japanese": "シシシシシ",
     "romaji": "Shishishishi",
     "english": "Shishishi! (alt wording 30)",
     "anime": "One Piece",
@@ -821,7 +821,7 @@
   },
   {
     "id": 83,
-    "japanese": "\u30b0\u30e9\u30e9\u30e9\u30e9",
+    "japanese": "グララララ",
     "romaji": "Gurararara",
     "english": "Gurararara! (alt wording 31)",
     "anime": "One Piece",
@@ -831,7 +831,7 @@
   },
   {
     "id": 84,
-    "japanese": "\u30bc\u30cf\u30cf\u30cf\u30cf",
+    "japanese": "ゼハハハハ",
     "romaji": "Ze hahaha",
     "english": "Ze ha ha ha! (alt wording 32)",
     "anime": "One Piece",
@@ -841,7 +841,7 @@
   },
   {
     "id": 85,
-    "japanese": "\u8ae6\u3081\u306a\u3044\u3063\u3066\u3070\u3088!",
+    "japanese": "諦めないってばよ!",
     "romaji": "Akiramenai tte bayo!",
     "english": "I never give up, believe it! (alt wording 33)",
     "anime": "Naruto",
@@ -851,7 +851,7 @@
   },
   {
     "id": 86,
-    "japanese": "\u4ef2\u9593\u3092\u5927\u5207\u306b\u3057\u306a\u3044\u5974\u306f\u305d\u308c\u4ee5\u4e0a\u306e\u30af\u30ba\u3060",
+    "japanese": "仲間を大切にしない奴はそれ以上のクズだ",
     "romaji": "Nakama o taisetsu ni shinai yatsu wa sore ijou no kuzu da",
     "english": "Those who don't take care of their comrades are worse than scum. (alt wording 34)",
     "anime": "Naruto",
@@ -861,7 +861,7 @@
   },
   {
     "id": 87,
-    "japanese": "\u75db\u307f\u3092\u4f34\u308f\u306a\u3044\u6559\u8a13\u306b\u306f\u610f\u5473\u304c\u306a\u3044",
+    "japanese": "痛みを伴わない教訓には意味がない",
     "romaji": "Itami o tomonawanai kyoukun ni wa imi ga nai",
     "english": "A lesson without pain is meaningless. (alt wording 35)",
     "anime": "Fullmetal Alchemist: Brotherhood",
@@ -871,7 +871,7 @@
   },
   {
     "id": 88,
-    "japanese": "\u99c6\u9010\u3057\u3066\u3084\u308b!\u3053\u306e\u4e16\u304b\u3089\u4e00\u5339\u6b8b\u3089\u305a!",
+    "japanese": "駆逐してやる!この世から一匹残らず!",
     "romaji": "Kuchiku shite yaru! Kono yo kara ippiki nokorazu!",
     "english": "I'll exterminate them! Every last one from this world! (alt wording 36)",
     "anime": "Attack on Titan",
@@ -881,7 +881,7 @@
   },
   {
     "id": 89,
-    "japanese": "\u751f\u6bba\u4e0e\u596a\u306e\u6a29\u3092\u4ed6\u4eba\u306b\u63e1\u3089\u305b\u308b\u306a!",
+    "japanese": "生殺与奪の権を他人に握らせるな!",
     "romaji": "Seisatsu yodatsu no ken o tanin ni nigiraseru na!",
     "english": "Don't let anyone else take control of your life and death! (alt wording 37)",
     "anime": "Demon Slayer: Kimetsu no Yaiba",
@@ -891,7 +891,7 @@
   },
   {
     "id": 90,
-    "japanese": "\u3055\u3089\u306b\u5411\u3053\u3046\u3078!\u30d7\u30eb\u30b9\u30a6\u30eb\u30c8\u30e9!",
+    "japanese": "さらに向こうへ!プルスウルトラ!",
     "romaji": "Sarani mukou e! Purusu Urutora!",
     "english": "Go beyond! Plus Ultra! (alt wording 38)",
     "anime": "My Hero Academia",
@@ -901,7 +901,7 @@
   },
   {
     "id": 91,
-    "japanese": "\u5927\u4e08\u592b\u3001\u50d5\u6700\u5f37\u3060\u304b\u3089",
+    "japanese": "大丈夫、僕最強だから",
     "romaji": "Daijoubu, boku saikyou dakara",
     "english": "Relax, I'm the strongest. (alt wording 39)",
     "anime": "Jujutsu Kaisen",
@@ -911,7 +911,7 @@
   },
   {
     "id": 92,
-    "japanese": "\u666e\u901a\u306e\u751f\u6d3b\u304c\u3057\u305f\u3044\u3060\u3051\u306a\u3093\u3060",
+    "japanese": "普通の生活がしたいだけなんだ",
     "romaji": "Futsuu no seikatsu ga shitai dake nanda",
     "english": "All I want is to live a normal life. (alt wording 40)",
     "anime": "Chainsaw Man",
@@ -921,7 +921,7 @@
   },
   {
     "id": 93,
-    "japanese": "\u6708\u306b\u4ee3\u308f\u3063\u3066\u304a\u3057\u304a\u304d\u3088!",
+    "japanese": "月に代わっておしおきよ!",
     "romaji": "Tsuki ni kawatte oshioki yo!",
     "english": "In the name of the moon, I'll punish you! (alt wording 41)",
     "anime": "Sailor Moon",
@@ -931,7 +931,7 @@
   },
   {
     "id": 94,
-    "japanese": "\u4ffa\u306f\u8da3\u5473\u3067\u30d2\u30fc\u30ed\u30fc\u3092\u3084\u3063\u3066\u3044\u308b\u8005\u3060",
+    "japanese": "俺は趣味でヒーローをやっている者だ",
     "romaji": "Ore wa shumi de hiiroo o yatte iru mono da",
     "english": "I'm just a hero for fun. (alt wording 42)",
     "anime": "One Punch Man",
@@ -941,7 +941,7 @@
   },
   {
     "id": 95,
-    "japanese": "\u5b88\u308b\u3082\u306e\u304c\u3042\u308b\u9650\u308a\u3001\u4ffa\u306f\u8ca0\u3051\u306a\u3044",
+    "japanese": "守るものがある限り、俺は負けない",
     "romaji": "Mamoru mono ga aru kagiri, ore wa makenai",
     "english": "As long as I have something to protect, I won't lose. (alt wording 43)",
     "anime": "Bleach",
@@ -951,7 +951,7 @@
   },
   {
     "id": 96,
-    "japanese": "\u50d5\u306f\u65b0\u4e16\u754c\u306e\u795e\u3068\u306a\u308b",
+    "japanese": "僕は新世界の神となる",
     "romaji": "Boku wa shin sekai no kami to naru",
     "english": "I will become the god of the new world. (alt wording 44)",
     "anime": "Death Note",
@@ -961,7 +961,7 @@
   },
   {
     "id": 97,
-    "japanese": "\u6483\u3063\u3066\u3044\u3044\u306e\u306f\u6483\u305f\u308c\u308b\u899a\u609f\u304c\u3042\u308b\u5974\u3060\u3051\u3060",
+    "japanese": "撃っていいのは撃たれる覚悟がある奴だけだ",
     "romaji": "Utte ii no wa uterareru kakugo ga aru yatsu dake da",
     "english": "Only those prepared to be shot should pull the trigger. (alt wording 45)",
     "anime": "Code Geass: Lelouch of the Rebellion",
@@ -971,7 +971,7 @@
   },
   {
     "id": 98,
-    "japanese": "\u4ffa\u3092\u8ab0\u3060\u3068\u601d\u3063\u3066\u3084\u304c\u308b!",
+    "japanese": "俺を誰だと思ってやがる!",
     "romaji": "Ore o dare da to omotte yagaru!",
     "english": "Who the hell do you think I am! (alt wording 46)",
     "anime": "Gurren Lagann",
@@ -981,7 +981,7 @@
   },
   {
     "id": 99,
-    "japanese": "\u50d5\u306f\u3082\u3046\u9003\u3052\u306a\u3044!",
+    "japanese": "僕はもう逃げない!",
     "romaji": "Boku wa mou nigenai!",
     "english": "I won't run away anymore! (alt wording 47)",
     "anime": "Hunter x Hunter",
@@ -991,7 +991,7 @@
   },
   {
     "id": 100,
-    "japanese": "\u9003\u3052\u3061\u3083\u30c0\u30e1\u3060!",
+    "japanese": "逃げちゃダメだ!",
     "romaji": "Nigeccha dame da!",
     "english": "I mustn't run away! (alt wording 48)",
     "anime": "Neon Genesis Evangelion",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": 101,
-    "japanese": "\u4ef2\u9593\u3092\u4fe1\u3058\u308b\u3053\u3068\u304c\u4ffa\u306e\u9b54\u6cd5\u3060",
+    "japanese": "仲間を信じることが俺の魔法だ",
     "romaji": "Nakama o shinjiru koto ga ore no mahou da",
     "english": "Believing in my friends is my magic. (alt wording 49)",
     "anime": "Fairy Tail",
@@ -1011,7 +1011,7 @@
   },
   {
     "id": 102,
-    "japanese": "\u8ae6\u3081\u308b\u3068\u3044\u3046\u8a00\u8449\u306f\u4ffa\u306e\u8f9e\u66f8\u306b\u306a\u3044",
+    "japanese": "諦めるという言葉は俺の辞書にない",
     "romaji": "Akirameru to iu kotoba wa ore no jisho ni nai",
     "english": "The word 'give up' isn't in my dictionary. (alt wording 50)",
     "anime": "Black Clover",
@@ -1021,7 +1021,7 @@
   },
   {
     "id": 103,
-    "japanese": "\u9003\u3052\u308b\u306e\u3082\u52c7\u6c17\u3060\u305e",
+    "japanese": "逃げるのも勇気だぞ",
     "romaji": "Nigeru no mo yuuki da zo",
     "english": "Running away can take courage too. (alt wording 51)",
     "anime": "Mob Psycho 100",
@@ -1031,7 +1031,7 @@
   },
   {
     "id": 104,
-    "japanese": "\u30aa\u30e9\u306b\u5143\u6c17\u3092\u5206\u3051\u3066\u304f\u308c!",
+    "japanese": "オラに元気を分けてくれ!",
     "romaji": "Ora ni genki o wakete kure!",
     "english": "Lend me your energy! (alt wording 52)",
     "anime": "Dragon Ball Z",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": 105,
-    "japanese": "\u30ed\u30fc\u30c9\u30ed\u30fc\u30e9\u30fc\u3060\u30c3\uff01",
+    "japanese": "ロードローラーだッ！",
     "romaji": "Rodo rora da!",
     "english": "Road roller! (alt wording 1) (alt wording 53)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": 106,
-    "japanese": "\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01\u30a4\u30a8\u30b9\uff01",
+    "japanese": "イエス！イエス！イエス！イエス！",
     "romaji": "Iesu! Iesu! Iesu! Iesu!",
     "english": "Yes! Yes! Yes! Yes! (alt wording 2) (alt wording 54)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1061,7 +1061,7 @@
   },
   {
     "id": 107,
-    "japanese": "\u307b\u3046\u2026\u5411\u304b\u3063\u3066\u304f\u308b\u306e\u304b",
+    "japanese": "ほう…向かってくるのか",
     "romaji": "Ho... mukatte kuru no ka",
     "english": "Oh? You're approaching me? (alt wording 3) (alt wording 55)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1071,7 +1071,7 @@
   },
   {
     "id": 108,
-    "japanese": "\u3060\u304c\u65ad\u308b",
+    "japanese": "だが断る",
     "romaji": "Daga kotowaru",
     "english": "But I refuse. (alt wording 4) (alt wording 56)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": 109,
-    "japanese": "\u3053\u306e\u30b8\u30e7\u30eb\u30ce\u30fb\u30b8\u30e7\u30d0\u30a1\u30fc\u30ca\u306b\u306f\u5922\u304c\u3042\u308b\uff01",
+    "japanese": "このジョルノ・ジョバァーナには夢がある！",
     "romaji": "Kono Joruno Jobana ni wa yume ga aru!",
     "english": "I, Giorno Giovanna, have a dream! (alt wording 5) (alt wording 57)",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -1091,7 +1091,7 @@
   },
   {
     "id": 110,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c",
+    "japanese": "やれやれだぜ",
     "romaji": "Yare yare da ze",
     "english": "Good grief. (alt wording 6) (alt wording 58)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1101,7 +1101,7 @@
   },
   {
     "id": 111,
-    "japanese": "\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\u7121\u99c4\uff01",
+    "japanese": "無駄無駄無駄無駄無駄！",
     "romaji": "Muda muda muda muda muda!",
     "english": "Useless! Useless! Useless! (alt wording 7) (alt wording 59)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1111,7 +1111,7 @@
   },
   {
     "id": 112,
-    "japanese": "\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\u30aa\u30e9\uff01",
+    "japanese": "オラオラオラオラオラ！",
     "romaji": "Ora ora ora ora ora!",
     "english": "Ora ora ora ora ora! (alt wording 8) (alt wording 60)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": 113,
-    "japanese": "\u306a\u306b\u30a3\uff01\uff1f",
+    "japanese": "なにィ！？",
     "romaji": "Nanii!?",
     "english": "What?! (alt wording 9) (alt wording 61)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1131,7 +1131,7 @@
   },
   {
     "id": 114,
-    "japanese": "\u6b21\u306b\u304a\u524d\u306f\u300c\u3084\u308c\u3084\u308c\u3060\u305c\u300d\u3068\u8a00\u3046\uff01",
+    "japanese": "次にお前は「やれやれだぜ」と言う！",
     "romaji": "Tsugi ni omae wa 'yare yare da ze' to iu!",
     "english": "Next you'll say, 'Good grief!' (alt wording 10) (alt wording 62)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1141,7 +1141,7 @@
   },
   {
     "id": 115,
-    "japanese": "\u8cb4\u69d8\u30c3\uff01\u898b\u3066\u3044\u308b\u306a\u30c3\uff01\uff01",
+    "japanese": "貴様ッ！見ているなッ！！",
     "romaji": "Kisama! Mite iru na!!",
     "english": "You! You're watching me! (alt wording 11) (alt wording 63)",
     "anime": "JoJo's Bizarre Adventure: Stone Ocean",
@@ -1151,7 +1151,7 @@
   },
   {
     "id": 116,
-    "japanese": "\u4ffa\u306f\u4eba\u9593\u3092\u3084\u3081\u308b\u305e\uff01\u30b8\u30e7\u30b8\u30e7\u30fc\u30fc\u30c3\uff01\uff01",
+    "japanese": "俺は人間をやめるぞ！ジョジョーーッ！！",
     "romaji": "Ore wa ningen o yameru zo! Jojo!!",
     "english": "I'm going to stop being human, JoJo! (alt wording 12) (alt wording 64)",
     "anime": "JoJo's Bizarre Adventure: Phantom Blood",
@@ -1161,7 +1161,7 @@
   },
   {
     "id": 117,
-    "japanese": "\u4eca\u65e5\u306e\u4ffa\u306f\u4e00\u5473\u9055\u3046\u305c\uff01",
+    "japanese": "今日の俺は一味違うぜ！",
     "romaji": "Kyou no ore wa hitomi chigau ze!",
     "english": "I'm on a different level today! (alt wording 13) (alt wording 65)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": 118,
-    "japanese": "\u304a\u308c\u306f\u4eba\u9593\u3092\u8d85\u8d8a\u3059\u308b\uff01",
+    "japanese": "おれは人間を超越する！",
     "romaji": "Ore wa ningen o chouetsu suru!",
     "english": "I will transcend humanity! (alt wording 14) (alt wording 66)",
     "anime": "JoJo's Bizarre Adventure: Battle Tendency",
@@ -1181,7 +1181,7 @@
   },
   {
     "id": 119,
-    "japanese": "\u3084\u308c\u3084\u308c\u3060\u305c\u2026\u307e\u3063\u305f\u304f\u3002",
+    "japanese": "やれやれだぜ…まったく。",
     "romaji": "Yare yare da ze... mattaku.",
     "english": "Good grief... honestly. (alt wording 15) (alt wording 67)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1191,7 +1191,7 @@
   },
   {
     "id": 120,
-    "japanese": "\u3060\u304c\u2026\u305d\u308c\u304c\u3044\u3044\u3002",
+    "japanese": "だが…それがいい。",
     "romaji": "Daga... sore ga ii.",
     "english": "But... that's what I like. (alt wording 16) (alt wording 68)",
     "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": 121,
-    "japanese": "\u30d6\u30c1\u30e3\u30e9\u30c6\u30a3\u3001\u6765\u305f\uff01",
+    "japanese": "ブチャラティ、来た！",
     "romaji": "Bucharati, kita!",
     "english": "Bucciarati is here! (alt wording 17) (alt wording 69)",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
@@ -1211,7 +1211,7 @@
   },
   {
     "id": 122,
-    "japanese": "\u304a\u307e\u3048\u306f\u3082\u3046\u6b7b\u3093\u3067\u3044\u308b",
+    "japanese": "おまえはもう死んでいる",
     "romaji": "Omae wa mou shindeiru",
     "english": "You're already dead. (alt wording 18) (alt wording 70)",
     "anime": "Fist of the North Star",
@@ -1221,7 +1221,7 @@
   },
   {
     "id": 123,
-    "japanese": "\u4f55\u30c3\uff01\uff1f",
+    "japanese": "何ッ！？",
     "romaji": "Nani!?",
     "english": "What?! (alt wording 19) (alt wording 71)",
     "anime": "Fist of the North Star",
@@ -1231,7 +1231,7 @@
   },
   {
     "id": 124,
-    "japanese": "\u4ffa\u306f\u6d77\u8cca\u738b\u306b\u306a\u308b\uff01",
+    "japanese": "俺は海賊王になる！",
     "romaji": "Ore wa kaizoku ou ni naru!",
     "english": "I'm gonna be King of the Pirates! (alt wording 20) (alt wording 72)",
     "anime": "One Piece",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": 125,
-    "japanese": "\u3042\u304d\u3089\u3081\u305f\u3089\u305d\u3053\u3067\u8a66\u5408\u7d42\u4e86\u3067\u3059\u3088\u2026\uff1f",
+    "japanese": "あきらめたらそこで試合終了ですよ…？",
     "romaji": "Akirametara soko de shiai shuuryou desu yo...?",
     "english": "If you give up, that's the end of the game. (alt wording 21) (alt wording 73)",
     "anime": "Slam Dunk",
@@ -1251,7 +1251,7 @@
   },
   {
     "id": 126,
-    "japanese": "\u307e\u3060\u3060\u3001\u307e\u3060\u7d42\u308f\u3089\u3093\u3088\uff01",
+    "japanese": "まだだ、まだ終わらんよ！",
     "romaji": "Mada da, mada owaran yo!",
     "english": "Not yet! It's not over yet! (alt wording 22) (alt wording 74)",
     "anime": "Mobile Suit Gundam",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": 127,
-    "japanese": "\u30aa\u30ec\u69d8\u306e\u7f8e\u6280\u306b\u30d6\u30ae\u30a6\u30ae",
+    "japanese": "オレ様の美技にブギウギ",
     "romaji": "Ore-sama no bigi ni bugiugi",
     "english": "Dance to my beautiful technique! (alt wording 23) (alt wording 75)",
     "anime": "The Prince of Tennis",
@@ -1271,17 +1271,17 @@
   },
   {
     "id": 128,
-    "japanese": "\u7b11\u3048\u3070\u3044\u3044\u3068\u601d\u3046\u3088",
+    "japanese": "笑えばいいと思うよ",
     "romaji": "Waraeba ii to omou yo",
     "english": "I think you should just laugh. (alt wording 24) (alt wording 76)",
     "anime": "Neon Genesis Evangelion",
     "character": "Rei Ayanami",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 129,
-    "japanese": "\u4ffa\u306f\u30ac\u30f3\u30c0\u30e0\u3060\uff01",
+    "japanese": "俺はガンダムだ！",
     "romaji": "Ore wa Gandamu da!",
     "english": "I am Gundam! (alt wording 25) (alt wording 77)",
     "anime": "Mobile Suit Gundam 00",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": 130,
-    "japanese": "\u4e16\u754c\u306f\u6b8b\u9177\u3060\u2026\u305d\u308c\u3067\u3082\u7f8e\u3057\u3044",
+    "japanese": "世界は残酷だ…それでも美しい",
     "romaji": "Sekai wa zankoku da... soredemo utsukushii",
     "english": "This world is cruel... yet so beautiful. (alt wording 26) (alt wording 78)",
     "anime": "Attack on Titan",
@@ -1301,7 +1301,7 @@
   },
   {
     "id": 131,
-    "japanese": "\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed\u30ec\u30ed",
+    "japanese": "レロレロレロレロ",
     "romaji": "Rero rero rero rero",
     "english": "Lero lero lero lero. (alt wording 27) (alt wording 79)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
@@ -1311,7 +1311,7 @@
   },
   {
     "id": 132,
-    "japanese": "\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3\u30d5\u30a9\u30c3",
+    "japanese": "フォッフォッフォッ",
     "romaji": "Fo fo fo fo",
     "english": "Fosh fosh fosh fosh. (alt wording 28) (alt wording 80)",
     "anime": "One Piece",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": 133,
-    "japanese": "\u30de\u30de\u30de\u30de\u30de",
+    "japanese": "マママママ",
     "romaji": "Mama mama mama",
     "english": "Mama mama mama. (alt wording 29) (alt wording 81)",
     "anime": "One Piece",
@@ -1331,7 +1331,7 @@
   },
   {
     "id": 134,
-    "japanese": "\u30b7\u30b7\u30b7\u30b7\u30b7",
+    "japanese": "シシシシシ",
     "romaji": "Shishishishi",
     "english": "Shishishi! (alt wording 30) (alt wording 82)",
     "anime": "One Piece",
@@ -1341,7 +1341,7 @@
   },
   {
     "id": 135,
-    "japanese": "\u30b0\u30e9\u30e9\u30e9\u30e9",
+    "japanese": "グララララ",
     "romaji": "Gurararara",
     "english": "Gurararara! (alt wording 31) (alt wording 83)",
     "anime": "One Piece",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 136,
-    "japanese": "\u30bc\u30cf\u30cf\u30cf\u30cf",
+    "japanese": "ゼハハハハ",
     "romaji": "Ze hahaha",
     "english": "Ze ha ha ha! (alt wording 32) (alt wording 84)",
     "anime": "One Piece",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": 137,
-    "japanese": "\u8ae6\u3081\u306a\u3044\u3063\u3066\u3070\u3088!",
+    "japanese": "諦めないってばよ!",
     "romaji": "Akiramenai tte bayo!",
     "english": "I never give up, believe it! (alt wording 33) (alt wording 85)",
     "anime": "Naruto",
@@ -1371,7 +1371,7 @@
   },
   {
     "id": 138,
-    "japanese": "\u4ef2\u9593\u3092\u5927\u5207\u306b\u3057\u306a\u3044\u5974\u306f\u305d\u308c\u4ee5\u4e0a\u306e\u30af\u30ba\u3060",
+    "japanese": "仲間を大切にしない奴はそれ以上のクズだ",
     "romaji": "Nakama o taisetsu ni shinai yatsu wa sore ijou no kuzu da",
     "english": "Those who don't take care of their comrades are worse than scum. (alt wording 34) (alt wording 86)",
     "anime": "Naruto",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": 139,
-    "japanese": "\u75db\u307f\u3092\u4f34\u308f\u306a\u3044\u6559\u8a13\u306b\u306f\u610f\u5473\u304c\u306a\u3044",
+    "japanese": "痛みを伴わない教訓には意味がない",
     "romaji": "Itami o tomonawanai kyoukun ni wa imi ga nai",
     "english": "A lesson without pain is meaningless. (alt wording 35) (alt wording 87)",
     "anime": "Fullmetal Alchemist: Brotherhood",
@@ -1391,7 +1391,7 @@
   },
   {
     "id": 140,
-    "japanese": "\u99c6\u9010\u3057\u3066\u3084\u308b!\u3053\u306e\u4e16\u304b\u3089\u4e00\u5339\u6b8b\u3089\u305a!",
+    "japanese": "駆逐してやる!この世から一匹残らず!",
     "romaji": "Kuchiku shite yaru! Kono yo kara ippiki nokorazu!",
     "english": "I'll exterminate them! Every last one from this world! (alt wording 36) (alt wording 88)",
     "anime": "Attack on Titan",
