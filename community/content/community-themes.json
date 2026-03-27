@@ -36,10 +36,10 @@
     "secondaryColor": "oklch(60.0% 0.085 25.0 / 1)"
   },
   {
-  "id": "anime-pop",
-  "backgroundColor": "oklch(95.0% 0.015 85.0 / 1)",
-  "mainColor": "oklch(65.0% 0.235 345.0 / 1)",
-  "secondaryColor": "oklch(70.0% 0.200 260.0 / 1)"
+    "id": "anime-pop",
+    "backgroundColor": "oklch(95.0% 0.015 85.0 / 1)",
+    "mainColor": "oklch(65.0% 0.235 345.0 / 1)",
+    "secondaryColor": "oklch(70.0% 0.200 260.0 / 1)"
   },
   {
     "id": "coastal-breeze",
@@ -54,9 +54,15 @@
     "secondaryColor": "oklch(75.0% 0.145 350.0 / 1)"
   },
   {
-  "id": "citrus-shrine",
-  "backgroundColor": "oklch(20.0% 0.030 70.0 / 1)",
-  "mainColor": "oklch(86.0% 0.155 85.0 / 1)",
-  "secondaryColor": "oklch(75.0% 0.095 60.0 / 1)"
-}
+    "id": "citrus-shrine",
+    "backgroundColor": "oklch(20.0% 0.030 70.0 / 1)",
+    "mainColor": "oklch(86.0% 0.155 85.0 / 1)",
+    "secondaryColor": "oklch(75.0% 0.095 60.0 / 1)"
+  },
+  {
+    "id": "kendo-strike",
+    "backgroundColor": "oklch(16.0% 0.028 265.0 / 1)",
+    "mainColor": "oklch(65.0% 0.025 270.0 / 1)",
+    "secondaryColor": "oklch(72.0% 0.165 25.0 / 1)"
+  }
 ]
