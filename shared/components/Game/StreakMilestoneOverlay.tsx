@@ -176,7 +176,7 @@ export default function StreakMilestoneOverlay({
               variants={itemVariants}
               className='text-sm text-(--secondary-color)/80'
             >
-              ({hasFinePointer ? 'click' : 'tap'} or press any key to continue)
+              ({hasFinePointer ? 'click' : 'tap'} to continue)
             </motion.p>
           </motion.div>
         </motion.div>

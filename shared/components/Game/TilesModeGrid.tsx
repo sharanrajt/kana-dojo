@@ -20,8 +20,8 @@ import {
 type AnimState = 'idle' | 'exploding' | 'hidden' | 'fading-in';
 
 const EXPLOSION_START_DELAY_MS = 300;
-const EXPLOSION_HIDDEN_DURATION_MS = 600;
-const EXPLOSION_FADE_IN_DURATION_MS = 500;
+const EXPLOSION_HIDDEN_DURATION_MS = 750;
+const EXPLOSION_FADE_IN_DURATION_MS = 600;
 
 const ExplodingAnswerTile = memo(
   ({
