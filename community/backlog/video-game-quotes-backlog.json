@@ -416,7 +416,7 @@
     "game": "Fate/stay night [Realta Nua]",
     "character": "Saber",
     "id": 42,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -666,7 +666,7 @@
     "game": "Dragon Quest series",
     "character": "Recurring command voice",
     "id": 67,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -786,7 +786,7 @@
     "game": "Tales series",
     "character": "Various endings",
     "id": 79,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
