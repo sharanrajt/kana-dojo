@@ -421,9 +421,8 @@ function SummaryLayout({
   const { playClick } = useClick();
 
   return (
-    <div className='fixed inset-0 z-50 bg-(--background-color)'>
-      <div className='h-full w-full overflow-x-hidden overflow-y-auto overscroll-y-contain'>
-        <div className='mx-auto flex min-h-[100dvh] w-full max-w-7xl flex-col justify-start px-4 py-8 sm:justify-center sm:px-8 sm:py-20 lg:px-12 lg:py-16'>
+    <div className='fixed inset-0 z-50 flex h-full w-full flex-col overflow-x-hidden overflow-y-auto bg-(--background-color)'>
+      <div className='mx-auto flex min-h-full w-full max-w-7xl flex-1 flex-col justify-start px-4 py-8 sm:min-h-[100dvh] sm:justify-center sm:px-8 sm:py-20 lg:px-12 lg:py-16'>
         <div className='mb-8 flex flex-col items-center gap-1 text-center select-none sm:mb-12 sm:items-start sm:text-left lg:mb-16'>
           <h1 className='text-3xl font-black tracking-tighter text-(--main-color) lowercase sm:text-5xl lg:text-6xl'>{title}</h1>
           <p className='text-base font-medium tracking-tight text-(--secondary-color) lowercase opacity-60 sm:text-xl'>{subtitle}</p>
@@ -476,7 +475,7 @@ function SummaryLayout({
           {extraContent}
         </div>
 
-        <div className='sticky bottom-0 z-10 -mx-4 mt-auto flex w-auto items-center justify-center gap-3 border-t-2 border-(--border-color) bg-(--background-color) px-4 py-4 select-none sm:static sm:mx-0 sm:w-full sm:justify-start sm:gap-5 sm:border-0 sm:bg-transparent sm:px-0 sm:py-0'>
+        <div className='sticky bottom-0 z-10 -mx-4 mt-auto flex w-auto items-center justify-center gap-3 border-t-2 border-(--border-color) bg-(--background-color) py-4 px-4 select-none sm:static sm:mx-0 sm:w-full sm:justify-start sm:gap-5 sm:border-0 sm:bg-transparent sm:px-0 sm:py-0'>
           <button onClick={() => { playClick(); onBackToSelection(); }} className='group flex h-14 flex-1 cursor-pointer items-center justify-center gap-3 rounded-xl bg-(--secondary-color) px-4 text-lg font-bold text-(--background-color) lowercase outline-hidden transition-all duration-150 sm:px-10 sm:text-xl md:flex-none'>
             <CircleArrowLeft className='h-5 w-5 group-hover:animate-none sm:h-6 sm:w-6' strokeWidth={2.5} />
             <span className='leading-none'>menu</span>
@@ -488,7 +487,6 @@ function SummaryLayout({
           </button>
         </div>
       </div>
-    </div>
     </div>
   );
 }
