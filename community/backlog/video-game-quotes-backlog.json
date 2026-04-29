@@ -1198,5 +1198,13 @@
     "id": 120,
     "issued": true,
     "completed": false
+  },
+  {
+    "id": 56,
+    "quote": "The cake is a lie",
+    "game": "Portal",
+    "character": "GLaDOS",
+    "issued": false,
+    "completed": false
   }
 ]
