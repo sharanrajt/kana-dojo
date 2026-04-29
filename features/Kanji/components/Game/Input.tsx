@@ -19,6 +19,7 @@ import useClassicSessionStore from '@/shared/store/useClassicSessionStore';
 import { useThemePreferences } from '@/features/Preferences';
 import { cn } from '@/shared/utils/utils';
 import useSetProgressStore from '@/features/Progress/store/useSetProgressStore';
+import { shouldSuppressContinueKeyboardShortcut } from '@/shared/utils/game/continueShortcutGuard';
 
 // Get the global adaptive selector for weighted character selection
 const adaptiveSelector = getGlobalAdaptiveSelector();
@@ -47,7 +48,6 @@ const KanjiInputGame = ({
   );
 
   const {
-    score,
     setScore,
     incrementKanjiCorrect,
     recordAnswerTime,
@@ -60,7 +60,6 @@ const KanjiInputGame = ({
     incrementCharacterScore,
   } = useStatsStore(
     useShallow(state => ({
-      score: state.score,
       setScore: state.setScore,
       incrementKanjiCorrect: state.incrementKanjiCorrect,
       recordAnswerTime: state.recordAnswerTime,
@@ -91,6 +90,8 @@ const KanjiInputGame = ({
 
   const [inputValue, setInputValue] = useState('');
   const [bottomBarState, setBottomBarState] = useState<BottomBarState>('check');
+  const [clearWrongFeedbackSignal, setClearWrongFeedbackSignal] = useState(0);
+  const [wrongFeedbackSignal, setWrongFeedbackSignal] = useState(0);
 
   // State management based on mode - uses weighted selection for adaptive learning
   const [correctChar, setCorrectChar] = useState(() => {
@@ -157,6 +158,15 @@ const KanjiInputGame = ({
     const handleKeyDown = (event: KeyboardEvent) => {
       const isEnter = event.key === 'Enter';
       const isSpace = event.code === 'Space' || event.key === ' ';
+      const isContinueShortcut = isEnter || isSpace;
+
+      if (
+        isContinueShortcut &&
+        shouldSuppressContinueKeyboardShortcut()
+      ) {
+        event.preventDefault();
+        return;
+      }
 
       if (isEnter) {
         // Guard against Enter key repeat immediately after correct answer
@@ -200,14 +210,19 @@ const KanjiInputGame = ({
     }
   };
 
+  const normalizeAnswer = (value: string): string => value.trim().toLowerCase();
+
   const isInputCorrect = (input: string): boolean => {
+    const normalizedInput = normalizeAnswer(input);
+
     if (!isReverse) {
       return (
         Array.isArray(targetChar) &&
-        targetChar.includes(input.trim().toLowerCase())
+        targetChar.some(answer => normalizeAnswer(answer) === normalizedInput)
       );
     } else {
-      return input.trim().toLowerCase() === targetChar;
+      const reverseTargetChar = typeof targetChar === 'string' ? targetChar : '';
+      return normalizedInput === normalizeAnswer(reverseTargetChar);
     }
   };
 
@@ -238,7 +253,7 @@ const KanjiInputGame = ({
     incrementCharacterScore(canonicalKanjiChar, 'correct');
     incrementCorrectAnswers();
     void recordKanjiProgress(canonicalKanjiChar);
-    setScore(score + 1);
+    setScore(useStatsStore.getState().score + 1);
 
     triggerCrazyMode();
     adaptiveSelector.updateCharacterWeight(correctChar, true);
@@ -283,14 +298,16 @@ const KanjiInputGame = ({
   const handleWrongAnswer = () => {
     const canonicalKanjiChar = correctKanjiObj?.kanjiChar ?? correctChar;
     setInputValue('');
+    setWrongFeedbackSignal(prev => prev + 1);
     playErrorTwice();
 
     incrementCharacterScore(canonicalKanjiChar, 'wrong');
     incrementWrongAnswers();
-    if (score - 1 < 0) {
+    const nextScore = useStatsStore.getState().score - 1;
+    if (nextScore < 0) {
       setScore(0);
     } else {
-      setScore(score - 1);
+      setScore(nextScore);
     }
     triggerCrazyMode();
     adaptiveSelector.updateCharacterWeight(correctChar, false);
@@ -336,14 +353,17 @@ const KanjiInputGame = ({
     startTimer();
   };
 
-  const gameMode = isReverse ? 'reverse input' : 'input';
   const displayCharLang = isReverse ? 'en' : 'ja';
   const inputLang = isReverse ? 'ja' : 'en';
   const textSize = isReverse ? 'text-6xl sm:text-8xl' : 'text-8xl sm:text-9xl';
   const gapSize = isReverse ? 'gap-6 sm:gap-10' : 'gap-4 sm:gap-10';
   const canCheck = inputValue.trim().length > 0 && bottomBarState !== 'correct';
   const showContinue = bottomBarState === 'correct';
-  const showFeedback = bottomBarState !== 'check';
+  const clearWrongFeedback = () => {
+    if (bottomBarState === 'wrong') {
+      setClearWrongFeedbackSignal(prev => prev + 1);
+    }
+  };
 
   // For Bottom Bar feedback
   const feedbackText = isReverse
@@ -416,21 +436,25 @@ const KanjiInputGame = ({
           <textarea
             ref={inputRef}
             value={inputValue}
-            placeholder='Type your answer...'
+            placeholder='type your answer...'
             disabled={showContinue}
             rows={4}
             className={clsx(
               'w-full max-w-xs sm:max-w-sm md:max-w-md',
-              'rounded-2xl px-5 py-4',
-              'rounded-2xl border-1 border-(--border-color) bg-(--card-color)',
+              'rounded-3xl px-5 py-4',
+              'border-4 border-(--border-color) bg-(--card-color)',
               'text-top text-left text-lg font-medium lg:text-xl',
               'text-(--secondary-color) placeholder:text-base placeholder:font-normal placeholder:text-(--secondary-color)/40',
-              'game-input resize-none focus:outline-none',
+              'game-input resize-none focus:border-(--secondary-color)/70 focus:outline-none',
               'transition-colors duration-200 ease-out',
               showContinue && 'cursor-not-allowed opacity-60',
             )}
             autoFocus
-            onChange={e => setInputValue(e.target.value)}
+            onChange={e => {
+              setInputValue(e.target.value);
+              clearWrongFeedback();
+            }}
+            onFocus={clearWrongFeedback}
             onKeyDown={e => {
               if (e.key === 'Enter') {
                 e.preventDefault();
@@ -451,6 +475,8 @@ const KanjiInputGame = ({
         feedbackContent={feedbackText}
         buttonRef={buttonRef}
         hideRetry
+        clearWrongFeedbackSignal={clearWrongFeedbackSignal}
+        wrongFeedbackSignal={wrongFeedbackSignal}
       />
 
       <div className='h-32' />

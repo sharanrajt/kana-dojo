@@ -38,7 +38,12 @@
   {
     "question": "Which Japanese castle was the seat of the Tokugawa shogunate? (Community variation 40)",
     "difficulty": "medium",
-    "answers": ["Edo Castle", "Himeji Castle", "Matsumoto Castle", "Osaka Castle"],
+    "answers": [
+      "Edo Castle",
+      "Himeji Castle",
+      "Matsumoto Castle",
+      "Osaka Castle"
+    ],
     "correctIndex": 0
   },
   {
@@ -184,5 +189,44 @@
     "difficulty": "medium",
     "answers": ["Nara", "Yokohama", "Kobe", "Nagoya"],
     "correctIndex": 0
-  }
+  },
+  {
+    "question": "Which dish is a Japanese hot pot with thinly sliced beef?",
+    "difficulty": "medium",
+    "answers": ["Sukiyaki", "Okonomiyaki", "Takoyaki", "Chankonabe"],
+    "correctIndex": 0
+  },
+  {
+    "_added_by": "bounty-bot",
+    "timestamp": "2026-04-27T00:52:26.468101"
+  },
+  {
+    "question": "Which Japanese city is known for its deer roaming freely in a large park? (Community variation 12)",
+    "difficulty": "medium",
+    "answers": ["Nara", "Yokohama", "Kobe", "Nagoya"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Japanese festival features floating lanterns on water?",
+    "difficulty": "medium",
+    "answers": ["Toro Nagashi", "Setsubun", "Tanabata", "Aoi Matsuri"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Japanese food is a savory pancake cooked on a griddle? (Community variation 39)",
+    "difficulty": "medium",
+    "answers": ["Okonomiyaki", "Sashimi", "Onigiri", "Mochi"],
+    "correctIndex": 0
+  },
+  {
+  "question": "Which of these is a Japanese traditional storytelling art? (Community variation 20)",
+  "difficulty": "medium",
+  "answers": [
+    "Rakugo",
+    "Kabuki",
+    "Noh",
+    "Ikebana"
+  ],
+  "correctIndex": 0
+}
 ]

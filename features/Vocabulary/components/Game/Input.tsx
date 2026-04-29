@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { toHiragana } from 'wanakana';
 import { IVocabObj } from '@/features/Vocabulary/store/useVocabStore';
 import { useClick, useCorrect, useError } from '@/shared/hooks/generic/useAudio';
-import { useGameStats, useStatsDisplay } from '@/features/Progress';
+import { useGameStats, useStatsDisplay, useStatsStore } from '@/features/Progress';
 import Stars from '@/shared/ui-composite/Game/Stars';
 import AnswerSummary from '@/shared/ui-composite/Game/AnswerSummary';
 import SSRAudioButton from '@/shared/ui-composite/audio/SSRAudioButton';
@@ -24,6 +24,7 @@ import {
   type VocabQuizType,
 } from '@/features/Vocabulary/components/Game/vocabFormatLock';
 import useSetProgressStore from '@/features/Progress/store/useSetProgressStore';
+import { shouldSuppressContinueKeyboardShortcut } from '@/shared/utils/game/continueShortcutGuard';
 
 // Get the global adaptive selector for weighted character selection
 const adaptiveSelector = getGlobalAdaptiveSelector();
@@ -46,7 +47,7 @@ const VocabInputGame = ({
   const recordVocabularyProgress = useSetProgressStore(
     state => state.recordVocabularyProgress,
   );
-  const { score, setScore } = useStatsDisplay();
+  const { setScore } = useStatsDisplay();
   const gameStats = useGameStats();
 
   const isGlassMode = useThemePreferences().isGlassMode;
@@ -61,9 +62,12 @@ const VocabInputGame = ({
 
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
+  const justAnsweredRef = useRef(false);
 
   const [inputValue, setInputValue] = useState('');
   const [bottomBarState, setBottomBarState] = useState<BottomBarState>('check');
+  const [clearWrongFeedbackSignal, setClearWrongFeedbackSignal] = useState(0);
+  const [wrongFeedbackSignal, setWrongFeedbackSignal] = useState(0);
 
   // Quiz type: 'meaning' or 'reading'
   const [quizType, setQuizType] = useState<'meaning' | 'reading'>('meaning');
@@ -165,8 +169,21 @@ const VocabInputGame = ({
     const handleKeyDown = (event: KeyboardEvent) => {
       const isEnter = event.key === 'Enter';
       const isSpace = event.code === 'Space' || event.key === ' ';
+      const isContinueShortcut = isEnter || isSpace;
+
+      if (
+        isContinueShortcut &&
+        shouldSuppressContinueKeyboardShortcut()
+      ) {
+        event.preventDefault();
+        return;
+      }
 
       if (isEnter) {
+        if (justAnsweredRef.current) {
+          event.preventDefault();
+          return;
+        }
         // Allow Enter to trigger Next button when correct
         if (bottomBarState === 'correct') {
           event.preventDefault();
@@ -193,14 +210,18 @@ const VocabInputGame = ({
     return null;
   }
 
+  const normalizeAnswer = (value: string): string => value.trim().toLowerCase();
+
   const isInputCorrect = (input: string): boolean => {
     if (quizType === 'meaning') {
       if (!isReverse) {
         return (
-          Array.isArray(targetChar) && targetChar.includes(input.toLowerCase())
+          Array.isArray(targetChar) &&
+          targetChar.some(answer => normalizeAnswer(answer) === normalizeAnswer(input))
         );
       } else {
-        return input === targetChar;
+        const reverseTargetChar = typeof targetChar === 'string' ? targetChar : '';
+        return normalizeAnswer(input) === normalizeAnswer(reverseTargetChar);
       }
     } else {
       const targetReading = typeof targetChar === 'string' ? targetChar : '';
@@ -234,7 +255,7 @@ const VocabInputGame = ({
       timeTaken: answerTimeMs,
     });
     void recordVocabularyProgress(correctChar, quizType);
-    setScore(score + 1);
+    setScore(useStatsStore.getState().score + 1);
 
     triggerCrazyMode();
     adaptiveSelector.updateCharacterWeight(correctChar, true);
@@ -244,6 +265,10 @@ const VocabInputGame = ({
       true,
     );
     setBottomBarState('correct');
+    justAnsweredRef.current = true;
+    setTimeout(() => {
+      justAnsweredRef.current = false;
+    }, 300);
     setDisplayAnswerSummary(true);
     logAttempt({
       questionId: correctChar,
@@ -267,6 +292,7 @@ const VocabInputGame = ({
 
   const handleWrongAnswer = () => {
     setInputValue('');
+    setWrongFeedbackSignal(prev => prev + 1);
     playErrorTwice();
 
     const correctAnswer = Array.isArray(targetChar)
@@ -278,10 +304,11 @@ const VocabInputGame = ({
       inputValue.trim(),
       correctAnswer,
     );
-    if (score - 1 < 0) {
+    const nextScore = useStatsStore.getState().score - 1;
+    if (nextScore < 0) {
       setScore(0);
     } else {
-      setScore(score - 1);
+      setScore(nextScore);
     }
     triggerCrazyMode();
     adaptiveSelector.updateCharacterWeight(correctChar, false);
@@ -325,6 +352,11 @@ const VocabInputGame = ({
   const textSize = isReverse ? 'text-5xl sm:text-7xl' : 'text-5xl md:text-8xl';
   const canCheck = inputValue.trim().length > 0 && bottomBarState !== 'correct';
   const showContinue = bottomBarState === 'correct';
+  const clearWrongFeedback = () => {
+    if (bottomBarState === 'wrong') {
+      setClearWrongFeedbackSignal(prev => prev + 1);
+    }
+  };
 
   // For Bottom Bar feedback
   const feedbackText = isReverse
@@ -353,7 +385,7 @@ const VocabInputGame = ({
             <span className='mb-2 text-sm text-(--secondary-color)'>
               {quizType === 'meaning'
                 ? isReverse
-                  ? 'What is the meaning?'
+                  ? 'What is the word?'
                   : 'What is the meaning?'
                 : 'What is the reading?'}
             </span>
@@ -403,21 +435,25 @@ const VocabInputGame = ({
           <textarea
             ref={inputRef}
             value={inputValue}
-            placeholder='Type your answer...'
+            placeholder='type your answer...'
             disabled={showContinue}
             rows={4}
             className={clsx(
               'w-full max-w-xs sm:max-w-sm md:max-w-md',
-              'rounded-2xl px-5 py-4',
-              'rounded-2xl border border-(--border-color) bg-(--card-color)',
+              'rounded-3xl px-5 py-4',
+              'border-4 border-(--border-color) bg-(--card-color)',
               'text-top text-left text-lg font-medium lg:text-xl',
               'text-(--secondary-color) placeholder:text-base placeholder:font-normal placeholder:text-(--secondary-color)/40',
-              'game-input resize-none focus:outline-none',
+              'game-input resize-none focus:border-(--secondary-color)/70 focus:outline-none',
               'transition-colors duration-200 ease-out',
               showContinue && 'cursor-not-allowed opacity-60',
             )}
             autoFocus
-            onChange={e => setInputValue(e.target.value)}
+            onChange={e => {
+              setInputValue(e.target.value);
+              clearWrongFeedback();
+            }}
+            onFocus={clearWrongFeedback}
             onKeyDown={e => {
               if (e.key === 'Enter') {
                 e.preventDefault();
@@ -438,6 +474,8 @@ const VocabInputGame = ({
         feedbackContent={feedbackText}
         buttonRef={buttonRef}
         hideRetry
+        clearWrongFeedbackSignal={clearWrongFeedbackSignal}
+        wrongFeedbackSignal={wrongFeedbackSignal}
       />
 
       <div className='h-32' />
