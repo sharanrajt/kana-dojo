@@ -156,7 +156,7 @@ const Stats: React.FC = () => {
             statistics
           </h1>
           <p className='text-base font-medium tracking-tight text-(--secondary-color) lowercase opacity-60 sm:text-xl'>
-            track your performance across all sessions.
+            track your performance in the current session.
           </p>
         </div>
 

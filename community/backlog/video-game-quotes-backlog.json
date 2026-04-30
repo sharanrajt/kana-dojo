@@ -156,7 +156,7 @@
     "game": "Onimusha series",
     "character": "Nobunaga Oda",
     "id": 16,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -196,7 +196,7 @@
     "game": "Samurai game proverb line",
     "character": "Musashi reference",
     "id": 20,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -556,8 +556,10 @@
     "game": "Onimusha series",
     "character": "Nobunaga Oda",
     "id": 56,
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": false,
+    "completedBy": "leeydev",
+    "completedPR": 15042
   },
   {
     "japanese": "世界を救うって、そういうことだろ？",
@@ -596,7 +598,7 @@
     "game": "Samurai game proverb line",
     "character": "Musashi reference",
     "id": 60,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -816,7 +818,7 @@
     "game": "Fate/stay night [Realta Nua]",
     "character": "Saber",
     "id": 82,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1016,7 +1018,7 @@
     "game": "Fate/stay night [Realta Nua]",
     "character": "Saber",
     "id": 102,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1086,7 +1088,7 @@
     "game": "Street Fighter series",
     "character": "Ryu",
     "id": 109,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1156,7 +1158,7 @@
     "game": "Onimusha series",
     "character": "Nobunaga Oda",
     "id": 116,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1197,6 +1199,14 @@
     "character": "Musashi reference",
     "id": 120,
     "issued": true,
+    "completed": false
+  },
+  {
+    "id": 56,
+    "quote": "The cake is a lie",
+    "game": "Portal",
+    "character": "GLaDOS",
+    "issued": false,
     "completed": false
   }
 ]

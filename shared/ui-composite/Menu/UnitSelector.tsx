@@ -19,6 +19,11 @@ import {
 } from '@/shared/utils/unitSets';
 import { useClick } from '@/shared/hooks/generic/useAudio';
 import { ActionButton } from '@/shared/ui/components/ActionButton';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+} from '@/shared/ui/components/accordion';
 import { useMemo } from 'react';
 import SelectionStatusBar from '@/shared/ui-composite/Menu/SelectionStatusBar';
 import SubunitSelector from '@/shared/ui-composite/Menu/SubunitSelector';
@@ -132,6 +137,9 @@ const UnitSelector = () => {
     : vocabSelection.selectedSubunitByUnit[selectedCollection];
   const resolvedSelectedSubunitId =
     selectedSubunitId || activeSubunits[0]?.id || '';
+  const showSubunitSelector = Boolean(
+    activeCollection && shouldShowSubunitSelector(activeCollection.levelCount),
+  );
 
   const handleSubunitSelect = (subunitId: string) => {
     playClick();
@@ -210,11 +218,7 @@ const UnitSelector = () => {
   return (
     <div className='flex flex-col'>
       {/* Modern Toggle-Style Unit Selector */}
-      <motion.div
-        layout
-        transition={{ duration: 0.3, ease: 'easeInOut' }}
-        className='flex flex-col rounded-4xl border-1 border-(--border-color) bg-(--background-color) p-1 shadow-[0_12px_40px_rgba(0,0,0,0.12)] backdrop-blur-xl'
-      >
+      <motion.div className='flex flex-col rounded-4xl border-1 border-(--border-color) bg-(--background-color) p-1 shadow-[0_12px_40px_rgba(0,0,0,0.12)] backdrop-blur-xl'>
         <div className='flex w-full flex-col rounded-[28px] bg-(--card-color) p-2'>
           <div className='flex flex-col gap-2 md:flex-row'>
             {collections.map(collection => {
@@ -282,19 +286,25 @@ const UnitSelector = () => {
             })}
           </div>
 
-          {activeCollection &&
-            shouldShowSubunitSelector(activeCollection.levelCount) && (
-              <>
-                <div className='-mx-2 my-3 h-0.5 bg-(--border-color)' />
-                <div className='pb-1'>
+          <Accordion
+            className='-mx-2'
+            type='single'
+            collapsible
+            value={showSubunitSelector ? 'subunits' : undefined}
+          >
+            <AccordionItem value='subunits' className='border-none'>
+              <AccordionContent className='pb-1'>
+                <div className='px-2'>
+                  <div className='-mx-2 my-3 h-0.5 bg-(--border-color)' />
                   <SubunitSelector
                     subunits={activeSubunits}
                     selectedSubunitId={resolvedSelectedSubunitId}
                     onSelect={handleSubunitSelect}
                   />
                 </div>
-              </>
-            )}
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </motion.div>
 

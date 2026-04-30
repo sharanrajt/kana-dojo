@@ -710,7 +710,7 @@
   {
     "id": 119,
     "fact": "There's a Japanese practice 'meshi' (召し) where a boss inviting you for a meal is essentially a command, not a request.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -746,7 +746,7 @@
   {
     "id": 125,
     "fact": "The word 'yoroshiku' (よろしく) has no direct translation - it's used for introductions, requests, and meaning 'please treat me well'.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -830,7 +830,7 @@
   {
     "id": 139,
     "fact": "There's a Japanese practice 'sekihan' (赤飯) - eating red rice with beans on celebratory occasions, from birthdays to promotions.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1316,7 +1316,7 @@
   {
     "id": 220,
     "fact": "The Japanese word 'senpai' (先輩) and 'kouhai' (後輩) describe a senior-junior relationship that shapes school and workplace culture.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1364,7 +1364,7 @@
   {
     "id": 228,
     "fact": "The Japanese term 'matsuri' (祭り) broadly means festival, and many neighborhoods host their own with portable shrines ('mikoshi').",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1376,7 +1376,7 @@
   {
     "id": 230,
     "fact": "The Japanese word 'nagori' (名残) describes the lingering feeling when a season is ending — like the last strawberries of spring.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1406,7 +1406,7 @@
   {
     "id": 235,
     "fact": "Japan’s 'ekiben' (駅弁) are region-specific boxed lunches sold at train stations, often showcasing local ingredients and specialties.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1796,7 +1796,7 @@
   {
     "id": 300,
     "fact": "A 'hikimono' (引き物) is a small parting gift given at weddings, often a set of sweets or tea.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

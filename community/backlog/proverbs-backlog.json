@@ -96,7 +96,7 @@
     "english": "Time is money",
     "meaning": "Time is valuable and should not be wasted",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 12,
@@ -123,7 +123,7 @@
     "english": "Hearing a hundred times is not as good as seeing once",
     "meaning": "Seeing is believing",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 15,
@@ -186,7 +186,7 @@
     "english": "Good medicine tastes bitter",
     "meaning": "Helpful advice often sounds harsh",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 22,
@@ -402,7 +402,7 @@
     "english": "Tap a stone bridge before crossing",
     "meaning": "Be very cautious",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 46,
@@ -933,7 +933,7 @@
     "english": "An inch ahead is darkness",
     "meaning": "The future is uncertain",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 105,
@@ -1122,7 +1122,7 @@
     "english": "A bee on a crying face",
     "meaning": "Misfortune never comes alone",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 126,
@@ -1373,7 +1373,7 @@
     "romaji": "Shippai wa seikou no moto",
     "english": "Failure is the origin of success",
     "meaning": "Mistakes lead to growth",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1500,7 +1500,7 @@
     "english": "Chase two rabbits, catch none",
     "meaning": "Focus on one thing",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 168,

@@ -134,6 +134,7 @@ const VisibleRowsSection = <TItem,>({
         const lastSetNumber =
           rowSets[rowSets.length - 1]?.name.match(/\d+/)?.[0] || firstSetNumber;
         const isSingleLevel = firstSetNumber === lastSetNumber;
+        const isRowCollapsed = collapsedRows.includes(rowIndex);
 
         return (
           <div
@@ -153,16 +154,15 @@ const VisibleRowsSection = <TItem,>({
                 }}
                 className={clsx(
                   'group ml-4 flex w-full flex-row items-center gap-2 rounded-xl text-3xl hover:cursor-pointer',
-                  collapsedRows.includes(rowIndex) && 'mb-1.5',
                 )}
-                aria-expanded={!collapsedRows.includes(rowIndex)}
+                aria-expanded={!isRowCollapsed}
               >
                 <ChevronUp
                   className={clsx(
                     'text-(--border-color) duration-250',
                     'max-md:group-active:text-(--secondary-color)',
                     'md:group-hover:text-(--secondary-color)',
-                    collapsedRows.includes(rowIndex) && 'rotate-180',
+                    isRowCollapsed && 'rotate-180',
                   )}
                   size={28}
                 />
@@ -174,88 +174,94 @@ const VisibleRowsSection = <TItem,>({
               </button>
             </h3>
 
-            {!collapsedRows.includes(rowIndex) && (
-              <div
-                className={clsx(
-                  'flex flex-col',
-                  'md:grid md:items-start',
-                  rowSets.length === 1 && 'md:grid-cols-1',
-                  rowSets.length === 2 && 'md:grid-cols-2',
-                  rowSets.length >= 3 && 'md:grid-cols-2 2xl:grid-cols-3',
-                )}
-              >
-                {rowSets.map((setTemp, i) => {
-                  const setItems = selectedCollectionData.slice(
-                    setTemp.start * itemsPerSet,
-                    setTemp.end * itemsPerSet,
-                  );
-                  const isSelected = selectedSets.includes(setTemp.name);
-                  const progressPercent = Math.round(
-                    getSetProgress(setItems) * 100,
-                  );
+            <div
+              className={clsx(
+                'flex flex-col',
+                'md:grid md:items-start',
+                rowSets.length === 1 && 'md:grid-cols-1',
+                rowSets.length === 2 && 'md:grid-cols-2',
+                rowSets.length >= 3 && 'md:grid-cols-2 2xl:grid-cols-3',
+              )}
+            >
+              {rowSets.map((setTemp, i) => {
+                const setItems = selectedCollectionData.slice(
+                  setTemp.start * itemsPerSet,
+                  setTemp.end * itemsPerSet,
+                );
+                const isSelected = selectedSets.includes(setTemp.name);
+                const progressPercent = Math.round(getSetProgress(setItems) * 100);
 
-                  return (
-                    <div
-                      key={setTemp.id + setTemp.name}
+                return (
+                  <div
+                    key={setTemp.id + setTemp.name}
+                    className={clsx(
+                      'flex h-full flex-col md:px-4',
+                      'border-(--border-color)',
+                      i < rowSets.length - 1 && 'md:border-r-1',
+                    )}
+                  >
+                    <div className='mb-4 w-full max-md:mx-4 max-md:w-[calc(100%-2rem)]'>
+                      <div className='h-9 w-full overflow-hidden rounded-2xl bg-(--background-color)'>
+                        <div
+                          className='h-full rounded-2xl transition-all duration-500'
+                          style={{
+                            width: `${progressPercent}%`,
+                            background:
+                              'linear-gradient(to right, var(--secondary-color), var(--main-color))',
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    <button
                       className={clsx(
-                        'flex h-full flex-col md:px-4',
-                        'border-(--border-color)',
-                        i < rowSets.length - 1 && 'md:border-r-1',
+                        'group flex items-center justify-center gap-2 text-2xl',
+                        'rounded-3xl hover:cursor-pointer',
+                        'transition-all duration-250 ease-in-out',
+                        'border-b-10 px-2 py-3 max-md:mx-4',
+                        isSelected && LEVEL_SET_SELECTED_FLOAT_CLASSES,
+                        isSelected
+                          ? 'border-(--secondary-color-accent) bg-(--secondary-color) text-(--background-color)'
+                          : 'border-(--border-color) bg-(--background-color) hover:border-(--main-color)/70',
+                      )}
+                      onClick={e => {
+                        e.currentTarget.blur();
+                        playClick();
+                        if (isSelected) {
+                          setSelectedSets(
+                            selectedSets.filter(set => set !== setTemp.name),
+                          );
+                        } else {
+                          setSelectedSets([
+                            ...new Set(selectedSets.concat(setTemp.name)),
+                          ]);
+                        }
+                        toggleItems(setItems);
+                      }}
+                    >
+                      {isSelected ? (
+                        <CircleCheck className='mt-0.5 fill-current text-(--background-color) duration-250' />
+                      ) : (
+                        <Circle className='mt-0.5 text-(--border-color) duration-250' />
+                      )}
+                      {setTemp.name.replace('Set ', 'Level ')}
+                    </button>
+
+                    <div
+                      className={clsx(
+                        'grid overflow-hidden',
+                        'transition-[grid-template-rows,opacity] duration-500 ease-in-out',
+                        isRowCollapsed
+                          ? 'grid-rows-[0fr] opacity-0'
+                          : 'grid-rows-[1fr] opacity-100',
                       )}
                     >
-                      <div className='mb-4 w-full max-md:mx-4 max-md:w-[calc(100%-2rem)]'>
-                        <div className='h-9 w-full overflow-hidden rounded-2xl bg-(--background-color)'>
-                          <div
-                            className='h-full rounded-2xl transition-all duration-500'
-                            style={{
-                              width: `${progressPercent}%`,
-                              background:
-                                'linear-gradient(to right, var(--secondary-color), var(--main-color))',
-                            }}
-                          />
-                        </div>
-                      </div>
-
-                      <button
-                        className={clsx(
-                          'group flex items-center justify-center gap-2 text-2xl',
-                          'rounded-3xl hover:cursor-pointer',
-                          'transition-all duration-250 ease-in-out',
-                          'border-b-10 px-2 py-3 max-md:mx-4',
-                          isSelected && LEVEL_SET_SELECTED_FLOAT_CLASSES,
-                          isSelected
-                            ? 'border-(--secondary-color-accent) bg-(--secondary-color) text-(--background-color)'
-                            : 'border-(--border-color) bg-(--background-color) hover:border-(--main-color)/70',
-                        )}
-                        onClick={e => {
-                          e.currentTarget.blur();
-                          playClick();
-                          if (isSelected) {
-                            setSelectedSets(
-                              selectedSets.filter(set => set !== setTemp.name),
-                            );
-                          } else {
-                            setSelectedSets([
-                              ...new Set(selectedSets.concat(setTemp.name)),
-                            ]);
-                          }
-                          toggleItems(setItems);
-                        }}
-                      >
-                        {isSelected ? (
-                          <CircleCheck className='mt-0.5 fill-current text-(--background-color) duration-250' />
-                        ) : (
-                          <Circle className='mt-0.5 text-(--border-color) duration-250' />
-                        )}
-                        {setTemp.name.replace('Set ', 'Level ')}
-                      </button>
-
-                      {renderSetDictionary(setItems)}
+                      <div className='min-h-0'>{renderSetDictionary(setItems)}</div>
                     </div>
-                  );
-                })}
-              </div>
-            )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         );
       })}

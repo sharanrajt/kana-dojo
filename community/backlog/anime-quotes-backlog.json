@@ -46,7 +46,7 @@
     "english": "I, Giorno Giovanna, have a dream!",
     "anime": "JoJo's Bizarre Adventure: Golden Wind",
     "character": "Giorno Giovanna",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -143,9 +143,9 @@
     "id": 15,
     "japanese": "やれやれだぜ…まったく。",
     "romaji": "Yare yare da ze... mattaku.",
-    "english": "Good grief... honestly.",
+    "english": "I reject my humanity, JoJo!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-    "character": "Jotaro Kujo",
+    "character": "Joseph Joestar",
     "issued": true,
     "completed": false
   },
@@ -176,7 +176,7 @@
     "english": "You're already dead.",
     "anime": "Fist of the North Star",
     "character": "Kenshiro",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -196,7 +196,7 @@
     "english": "I'm gonna be King of the Pirates!",
     "anime": "One Piece",
     "character": "Monkey D. Luffy",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -407,7 +407,7 @@
     "anime": "Sailor Moon",
     "character": "Usagi Tsukino",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 42,
@@ -546,7 +546,7 @@
     "english": "Oh? You're approaching me? (alt wording 3)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
     "character": "DIO",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -696,7 +696,7 @@
     "english": "You're already dead. (alt wording 18)",
     "anime": "Fist of the North Star",
     "character": "Kenshiro",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -846,7 +846,7 @@
     "english": "I never give up, believe it! (alt wording 33)",
     "anime": "Naruto",
     "character": "Naruto Uzumaki",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

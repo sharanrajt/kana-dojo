@@ -23,7 +23,7 @@
     "dont": "通話を続ける",
     "note": "混雑時は特に配慮する。",
     "id": 3,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -302,7 +302,7 @@
     "dont": "初対面でタメ口を使う",
     "note": "距離感が縮まるまでは敬語が無難。",
     "id": 34,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -383,7 +383,7 @@
     "dont": "通話を続ける",
     "note": "混雑時は特に配慮する。",
     "id": 43,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -446,7 +446,7 @@
     "dont": "割り込む",
     "note": "駅・店頭では順番厳守。",
     "id": 50,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -725,7 +725,7 @@
     "dont": "片手で受け取ってすぐポケットに入れる",
     "note": "商談中は机上に置くのが一般的。",
     "id": 81,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -752,7 +752,7 @@
     "dont": "無言で食べ始める",
     "note": "感謝を示す慣習。",
     "id": 84,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -941,7 +941,7 @@
     "dont": "食べ終わってすぐ席を立つ",
     "note": "店でも家庭でも使える。",
     "id": 105,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -968,7 +968,7 @@
     "dont": "タオルを湯船に入れる",
     "note": "共同浴場の基本ルール。",
     "id": 108,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
