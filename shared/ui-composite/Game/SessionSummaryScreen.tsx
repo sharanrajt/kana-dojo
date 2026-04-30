@@ -26,6 +26,14 @@ import type { GoalTimer } from '@/shared/ui-composite/Blitz/types';
 type DojoType = 'kana' | 'kanji' | 'vocabulary';
 type GauntletStats = Omit<GauntletSessionStats, 'id'>;
 
+const sessionStatIconBadgeStyle = {
+  base: 'flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border-b-6 [--float-distance:-2px]',
+  selected:
+    'border-(--main-color-accent) bg-(--main-color) text-(--background-color)',
+  unselected:
+    'border-(--secondary-color-accent) bg-(--secondary-color) text-(--background-color) opacity-85',
+} as const;
+
 interface ClassicSessionSummaryProps {
   mode?: 'classic';
   title?: string;
@@ -208,7 +216,11 @@ function BlitzSummary({
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6'>
             <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
-                <CheckCircle2 className='h-4 w-4 text-(--main-color)' />
+                <span
+                  className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.selected}`}
+                >
+                  <CheckCircle2 className='h-5 w-5' />
+                </span>
                 <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
                   reached ({reached.length})
                 </span>
@@ -223,7 +235,11 @@ function BlitzSummary({
             </div>
             <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
               <div className='mb-2 flex items-center gap-2'>
-                <XCircle className='h-4 w-4 text-(--secondary-color) opacity-60' />
+                <span
+                  className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.unselected}`}
+                >
+                  <XCircle className='h-5 w-5' />
+                </span>
                 <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
                   missed ({missed.length})
                 </span>
@@ -318,7 +334,11 @@ function GauntletSummary({
         <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6'>
           <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
             <div className='mb-2 flex items-center gap-2'>
-              <Flame className='h-4 w-4 text-(--secondary-color) opacity-60' />
+              <span
+                className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.unselected}`}
+              >
+                <Flame className='h-5 w-5' />
+              </span>
               <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
                 difficulty
               </span>
@@ -341,7 +361,11 @@ function GauntletSummary({
               }}
               className='mb-2 flex items-center gap-2 text-left'
             >
-              <Heart className='h-4 w-4 text-(--secondary-color) opacity-60' />
+              <span
+                className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.unselected}`}
+              >
+                <Heart className='h-5 w-5' />
+              </span>
               <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>
                 character breakdown
               </span>
@@ -396,8 +420,8 @@ interface SummaryLayoutProps {
 function SummaryLayout({
   title,
   subtitle,
-  total,
-  correct,
+  total: _total,
+  correct: _correct,
   accuracy,
   heroValue,
   heroDescription,
@@ -466,10 +490,10 @@ function SummaryLayout({
           </div>
 
           <div className='grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6'>
-            <MiniStat icon={<Trophy className='h-4 w-4 text-(--secondary-color) opacity-60' />} label={firstStatLabel} value={firstStatValue} />
-            <MiniStat icon={<Zap className='h-4 w-4 text-(--secondary-color) opacity-60' />} label={secondStatLabel} value={secondStatValue} />
-            <MiniStat icon={<Activity className='h-4 w-4 text-(--secondary-color) opacity-60' />} label={thirdStatLabel} value={thirdStatValue} />
-            <MiniStat icon={<Zap className='h-4 w-4 text-(--secondary-color) opacity-60' />} label={fourthStatLabel} value={fourthStatValue} />
+            <MiniStat icon={<Trophy />} label={firstStatLabel} value={firstStatValue} />
+            <MiniStat icon={<Zap />} label={secondStatLabel} value={secondStatValue} />
+            <MiniStat icon={<Activity />} label={thirdStatLabel} value={thirdStatValue} />
+            <MiniStat icon={<Zap />} label={fourthStatLabel} value={fourthStatValue} />
           </div>
 
           {extraContent}
@@ -503,7 +527,11 @@ function MiniStat({
   return (
     <div className='flex flex-col rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6'>
       <div className='mb-2 flex items-center gap-2'>
-        {icon}
+        <span
+          className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.unselected}`}
+        >
+          {icon}
+        </span>
         <span className='text-xs leading-none font-bold tracking-widest text-(--secondary-color) uppercase opacity-60'>{label}</span>
       </div>
       <div className='text-2xl font-black tracking-tighter text-(--main-color) sm:text-3xl'>{value}</div>

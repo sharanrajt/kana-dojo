@@ -17,6 +17,14 @@ import {
 import { useStatsDisplay } from '@/features/Progress';
 import { useClick } from '@/shared/hooks/generic/useAudio';
 
+const sessionStatIconBadgeStyle = {
+  base: 'flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border-b-6 [--float-distance:-2px]',
+  selected:
+    'border-(--main-color-accent) bg-(--main-color) text-(--background-color)',
+  unselected:
+    'border-(--secondary-color-accent) bg-(--secondary-color) text-(--background-color) opacity-85',
+} as const;
+
 interface BentoTileProps {
   Icon: LucideIcon;
   label: string;
@@ -39,7 +47,11 @@ function BentoTile({
       className={`flex min-w-0 flex-col justify-between overflow-hidden rounded-[2rem] border-2 border-(--secondary-color)/10 bg-(--background-color) p-5 sm:p-6 ${className}`}
     >
       <div className='mb-2 flex min-w-0 items-center gap-2'>
-        <Icon className='h-4 w-4 shrink-0 text-(--secondary-color) opacity-60' />
+        <span
+          className={`${sessionStatIconBadgeStyle.base} ${sessionStatIconBadgeStyle.unselected}`}
+        >
+          <Icon className='h-5 w-5' />
+        </span>
         <span className='block min-w-0 break-all text-[11px] leading-tight font-bold tracking-wider text-(--secondary-color) uppercase opacity-60 sm:text-xs'>
           {label}
         </span>
@@ -58,7 +70,7 @@ function BentoTile({
   );
 }
 
-const Stats: React.FC = () => {
+const SessionStats: React.FC = () => {
   const { playClick } = useClick();
   const statsData = useStatsDisplay();
   const toggleStats = statsData.toggleStats;
@@ -276,5 +288,5 @@ const Stats: React.FC = () => {
   );
 };
 
-export default Stats;
+export default SessionStats;
 
