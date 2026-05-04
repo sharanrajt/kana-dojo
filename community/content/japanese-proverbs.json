@@ -506,7 +506,13 @@
   {
   "japanese": "井の中の蛙大海を知らず",
   "romaji": "I no naka no kawazu taikai wo shirazu",
-  "english": "A frog in a well doesn’t know the ocean",
+  "english": "A frog in a well doesn't know the ocean",
   "meaning": "Limited experience limits perspective"
+},
+  {
+  "japanese": "旅は道連れ世は情け",
+  "romaji": "Tabi wa michizure yo wa nasake",
+  "english": "Travel needs companions; life needs kindness",
+  "meaning": "Relationships and compassion matter"
 }
 ]
